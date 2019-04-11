@@ -14,6 +14,7 @@ matplotlib = "*"
 pydot = "*"
 jupyter-contrib-nbextensions = "*"
 jupyter-nbextensions-configurator = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.7"
