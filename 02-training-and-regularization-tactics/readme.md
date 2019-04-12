@@ -24,7 +24,26 @@ In this class we're going to dive deeper into the most important component parts
 * [Combining different activations, paper](https://arxiv.org/abs/1801.09403v1)
 * [Benefits of ELUs, paper](https://arxiv.org/abs/1511.07289v1)
 
-## Part 2: Optimizers
+## Part 2: Loss Functions
+
+### Pre-Reading Material
+
+* [Common Loss Functions](https://towardsdatascience.com/common-loss-functions-in-machine-learning-46af0ffc4d23)
+
+### Helpful Documentation
+
+* [Keras Built In Loss Functions](https://keras.io/losses/)
+* [ML Cheatsheet: Loss functions](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
+
+### Resources for Further Exploration
+
+* [5 Regression Loss Functions All Machine Learners Should Know](https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0)
+* [How to Choose a Loss Function](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)
+* [Picking Loss Functions](https://rohanvarma.me/Loss-Functions/)
+* [Building a Complex Custom Loss Function in Keras](https://towardsdatascience.com/advanced-keras-constructing-complex-custom-losses-and-metrics-c07ca130a618)
+
+
+## Part 3: Optimizers
 
 ### Pre-Reading Material:
 
@@ -40,3 +59,5 @@ In this class we're going to dive deeper into the most important component parts
 
 * [Optimizing Gradient Descent](http://ruder.io/optimizing-gradient-descent/)
 * [Different Optimizers in Depth](https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f)
+
+## Part 4: Regularization & Dropout
