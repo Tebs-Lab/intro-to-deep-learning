@@ -20,6 +20,7 @@ Deep learning is a subset of machine learning which is itself a subset of AI. Sp
 
 * [Why Deep Learning Over Traditional Machine Learning](https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063)
 * [Historical Trends in AI/ML/Deep Learning](https://www.technologyreview.com/s/612768/we-analyzed-16625-papers-to-figure-out-where-ai-is-headed-next/)
+* [Deep Learning Book, Chapter 4: Universal Approximation Theorem](http://neuralnetworksanddeeplearning.com/chap4.html)
 * [High Performance Computing is More Parallel Than Ever](https://medium.com/tebs-lab/the-age-of-parallel-computing-b3f4319c97b0)
 
 ## Part 2: Building Neural Networks With Keras

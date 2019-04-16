@@ -17,6 +17,7 @@ jupyter-nbextensions-configurator = "*"
 pandas = "*"
 sklearn = "*"
 seaborn = "*"
+pillow = "*"
 
 [requires]
 python_version = "3.7"

@@ -19,7 +19,6 @@ In this class we're going to dive deeper into the most important component parts
 
 ### Resources For Further Exploration
 
-* [Deep Learning Book, Chapter 4: Universal Approximation Theorem](http://neuralnetworksanddeeplearning.com/chap4.html)
 * [Pros and cons of Activation functions](https://yashuseth.blog/2018/02/11/which-activation-function-to-use-in-neural-networks/)
 * [Many ReLUs](https://medium.com/tinymind/a-practical-guide-to-relu-b83ca804f1f7)
 * [Combining different activations, paper](https://arxiv.org/abs/1801.09403v1)
