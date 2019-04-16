@@ -3,3 +3,8 @@
 Wolves or Husky, detecting the background: https://arxiv.org/abs/1602.04938
 
 (writeup regarding: https://hackernoon.com/dogs-wolves-data-science-and-why-machines-must-learn-like-humans-do-41c43bc7f982)
+
+
+### Resources For Further Exploration
+
+* [This is how AI bias really happens—and why it’s so hard to fix](https://www.technologyreview.com/s/612876/this-is-how-ai-bias-really-happensand-why-its-so-hard-to-fix/)
