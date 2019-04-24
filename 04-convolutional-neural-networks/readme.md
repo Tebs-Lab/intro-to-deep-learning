@@ -1,6 +1,21 @@
 # Convolutional Neural Networks
 
+Convolutional neural networks are a specialization of neural networks that are designed specifically to work with data that has spatial relationships. The most common use of CNN's is in the field of computer vision and image processing. This is because images have clear spatial relationships. Neighboring pixels have a stronger relationship than pixels in opposite corners of an image.
+
+By adding ideas from image processing to neural networks, especially the idea of a 'kernel', convolutional neural networks have achieved fantastic performance on a number of computer vision tasks.
+
+**By the end of this class students should be able to:**
+
+* Define convolutional neural networks and their critical components.
+* Describe why CNN's are such a good fit for computer vision tasks.
+* Build convolutional neural networks using Keras.
+* Describe the concept of Transfer Learning and apply it to CNNs using Keras.
+* Contrast classification and segmentation.
+* Apply CNNs to perform both classification and segmentation.
+
 ## Part 1: What Are CNNs and What Are They Good At?
+
+See the above!
 
 ### Pre-Reading
 
@@ -9,12 +24,13 @@
 
 ### Resources for Further Exploration
 
-
 * [Neural Networks and Deep Learning, Chapter 6](http://neuralnetworksanddeeplearning.com/chap6.html#introducing_convolutional_networks)
 * [Deep Learning Book, Chapter 9](http://www.deeplearningbook.org/contents/convnets.html)
 * [Types of Convolutions](https://towardsdatascience.com/types-of-convolutions-in-deep-learning-717013397f4d)
 
 ## Part 2: Building CNNs For Classification
+
+Just like with artificial neural networks, the theory is great but it's more fun to put the concepts into practice. In this section we'll build a few CNNs from scratch. We'll also import well known, pre-trained neural networks and apply them. Oftentimes, due to the enormous training costs of modern CNNs, it can be more effective to just use an existing model.
 
 ### Pre-Reading
 
@@ -36,6 +52,8 @@
 * [Gradient Activated Heat Maps paper](https://arxiv.org/abs/1610.02391)
 
 ## Part 3: Transfer Learning
+
+Transfer learning is a tactic that allows us to take a pre-trained neural network, and apply it to a new task. Transfer learning is especially popular with CNNs because a lot of images share the same useful features, which means the "lessons" learned by a CNN for one task can be immediately applied to another task. In this section we'll look at two different styles of transfer learning, feature extraction and fine-tuning, and apply them using Keras. 
 
 ### Pre-Reading
 
@@ -69,6 +87,13 @@
 
 
 SAVED FOR LATER READING, EVALUATE THESE:
+
+[U-NET](https://arxiv.org/abs/1505.04597)
+[U-Net Implementation Keras](https://github.com/zhixuhao/unet)
+
+https://towardsdatascience.com/using-image-segmentation-to-identify-rooftops-in-low-resolution-satellite-images-c791975d91cc
+
+
 
 * https://www.microsoft.com/developerblog/2018/07/18/semantic-segmentation-small-data-using-keras-azure-deep-learning-virtual-machine/
 

@@ -1,3 +1,31 @@
+# Preprocessing The Data
+
+## Part 1: Bias in the World, Bias in the Data
+
+### Pre-Reading
+
+*
+
+### Resources for Further Exploration
+
+*
+
+
+## Part 2: Cleaning Structured Data
+
+### Pre-Reading
+
+*
+
+### Helpful Documentation
+
+* 
+
+### Resources for Further Exploration
+
+*
+
+
 "if you import data created in the past you are also imorting the historical biases that led to the creation of that data." AI Now on Recode Decode w/ Kara Swisher (Mary Wittacre, Kate Crawford check spelling)
 
 Wolves or Husky, detecting the background: https://arxiv.org/abs/1602.04938

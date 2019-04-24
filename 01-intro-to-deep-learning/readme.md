@@ -11,6 +11,10 @@ Deep learning is a subset of machine learning which is itself a subset of AI. Sp
 
 ## Part 1: What Are Neural Networks, and Why Now?
 
+Neural networks have taken off in no small part due to improvements in computing hardware. The first papers describing neural networks were written in the 1970's, but it was 40 years of Moore's Law that made the technique viable. In addition to the increase in computational power and massive improvements in parallel computing, neural networks have benefited from the collection of massive amounts of data.
+
+In this section we'll discuss what neural networks are, the process through which they are trained, what they are good at, and some critical terminology. We'll also try to get past the hype and recognize some of the weaknesses of ML techniques and deep learning in general.
+
 ### Pre-reading Material
 
 * [Introduction to Deep Learning](https://medium.com/tebs-lab/introduction-to-deep-learning-a46e92cb0022)
@@ -18,13 +22,16 @@ Deep learning is a subset of machine learning which is itself a subset of AI. Sp
 
 ### Resources for Further Exploration
 
+* [Deep Learning Book, Chapter 4: Universal Approximation Theorem](http://neuralnetworksanddeeplearning.com/chap4.html)
+* [The Bias/Variance Tradeoff](http://scott.fortmann-roe.com/docs/BiasVariance.html)
 * [Why Deep Learning Over Traditional Machine Learning](https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063)
 * [Historical Trends in AI/ML/Deep Learning](https://www.technologyreview.com/s/612768/we-analyzed-16625-papers-to-figure-out-where-ai-is-headed-next/)
-* [Deep Learning Book, Chapter 4: Universal Approximation Theorem](http://neuralnetworksanddeeplearning.com/chap4.html)
 * [High Performance Computing is More Parallel Than Ever](https://medium.com/tebs-lab/the-age-of-parallel-computing-b3f4319c97b0)
 * [Neural Networks Are Hackable](https://towardsdatascience.com/hacking-neural-networks-2b9f461ffe0b)
 
 ## Part 2: Building Neural Networks With Keras
+
+Theory is great, but putting the theory into practice is more practical. In this section we'll build a handful of simple neural networks using the Keras library.
 
 ### Pre-Reading Material
 
@@ -37,11 +44,16 @@ Deep learning is a subset of machine learning which is itself a subset of AI. Sp
 
 ## Part 3: Exploring Neural Network Architectures
 
+Neural networks are very flexible models. The architecture of individual networks has a dramatic impact on their performance. Different architectures might be better suited to different tasks. Much of the ongoing research into neural networks is related to creating new architectures that out-perform the existing state of the art.
+
+In this section we'll explore some of the impacts of different network architectures by constructing a few networks with different architectures.
+
 ### Pre-Reading Material
 
-* [The Number of Hidden Layers](https://www.heatonresearch.com/2017/06/01/hidden-layers.html)
+* [Picking The Number of Hidden Layers](https://www.heatonresearch.com/2017/06/01/hidden-layers.html)
 
 ### Resources For Further Exploration
 
 * [How To Configure The Number of Nodes and Layers in a Neural Network](https://machinelearningmastery.com/how-to-configure-the-number-of-layers-and-nodes-in-a-neural-network/)
 * [Stack Exchange Discussion on Choosing Number of Nodes and Layers](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
+* [List of Neural Network Topologies](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)

@@ -23,7 +23,6 @@ Each class and section has its own resources and reading material to help studen
 * [The Deep Learning Book](http://www.deeplearningbook.org/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 * [Popular Benchmarks Through 2015](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d313030)
-* [List of Neural Network Topologies](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
 
 ## Kaggle Datasets
 
