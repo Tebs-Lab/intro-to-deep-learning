@@ -22,4 +22,11 @@ Each class and section has its own resources and reading material to help studen
 
 * [The Deep Learning Book](http://www.deeplearningbook.org/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+* [Popular Benchmarks Through 2015](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d313030)
 * [List of Neural Network Topologies](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
+
+## Kaggle Datasets
+
+Throughout this course, you'll be learning more about how to use neural networks through the use of specific datasets. In order to put these skills into practice, it's a great idea to try putting these principles into practice. Kaggle has a lot of great datasets for you to do this, check it out:
+
+[Big list of public Kaggle datasets](https://www.kaggle.com/annavictoria/ml-friendly-public-datasets)

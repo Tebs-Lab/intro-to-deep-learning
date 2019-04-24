@@ -1,5 +1,11 @@
 .DS_STORE
 scratchpad.md
+**/flowers_dataset/
+
+04-convolutional-neural-networks/MobileNetV2_features_test.npz
+04-convolutional-neural-networks/MobileNetV2_features_train.npz
+04-convolutional-neural-networks/saved_models/
+04-convolutional-neural-networks/resized/*
 
 # Created by https://www.gitignore.io/api/python,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=python,jupyternotebook

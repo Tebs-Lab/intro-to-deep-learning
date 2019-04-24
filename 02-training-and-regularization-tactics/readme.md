@@ -60,4 +60,19 @@ In this class we're going to dive deeper into the most important component parts
 * [Optimizing Gradient Descent](http://ruder.io/optimizing-gradient-descent/)
 * [Different Optimizers in Depth](https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f)
 
-## Part 4: Regularization & Dropout
+## Part 4: Regularization
+
+### Pre-Reading Material
+
+* [A Gentle Introduction to Dropout for Regularizing Deep Neural Networks](https://machinelearningmastery.com/dropout-for-regularizing-deep-neural-networks/)
+* [Early Stopping in Keras](https://chrisalbon.com/deep_learning/keras/neural_network_early_stopping/)
+
+### Helpful Documentation
+
+* [Keras Docs, Dropout](https://keras.io/layers/core/#dropout)
+* [Keras Docs, Early Stopping](https://keras.io/callbacks/#earlystopping)
+
+### Resources For Further Exploration
+
+* [Deep Learning Book, Chapter 7: Regularization for Deep Learning](https://www.deeplearningbook.org/contents/regularization.html)
+* [Early Stopping and Its Faults](http://alexadam.ca/ml/2018/08/03/early-stopping.html)
