@@ -1,10 +1,10 @@
-# Class 2: Training and Regularization Tactics
+# Section 2: Training and Regularization Tactics
 
 Despite what you’ve heard, neural networks are not a panacea to every AI problem. They certainly provide advantages over other AI and ML tactics, such as reducing the need for feature engineering and capturing complex relationships in high dimensional data. They also have weaknesses such as huge data and computational resource requirements, lack of interpretability, and risk of overfitting.
 
 In this class we're going to dive deeper into the most important component parts of neural networks, and explore the impact of choices we can make regarding each component.
 
-**By the end of this class students should be able to:**
+**By the end of this section students should be able to:**
 
 * Describe a few different activation functions and what factors contribute to their effectiveness.
 * Build neural networks with different activation functions.
@@ -32,6 +32,7 @@ Every node in a neural network has an activation function. The primary purpose o
 
 ### Resources For Further Exploration
 
+* [Deep Learning and Neural Networks Chapter 5: Why Are Deep Neural Networks Hard to Train](http://neuralnetworksanddeeplearning.com/chap5.html)
 * [Pros and cons of Activation functions](https://yashuseth.blog/2018/02/11/which-activation-function-to-use-in-neural-networks/)
 * [The Exploding Gradient Problem](https://machinelearningmastery.com/exploding-gradients-in-neural-networks/)
 * [Many ReLUs](https://medium.com/tinymind/a-practical-guide-to-relu-b83ca804f1f7)

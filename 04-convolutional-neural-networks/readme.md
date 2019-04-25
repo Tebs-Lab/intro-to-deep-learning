@@ -1,10 +1,10 @@
-# Convolutional Neural Networks
+# Section 4: Convolutional Neural Networks
 
 Convolutional neural networks are a specialization of neural networks that are designed specifically to work with data that has spatial relationships. The most common use of CNN's is in the field of computer vision and image processing. This is because images have clear spatial relationships. Neighboring pixels have a stronger relationship than pixels in opposite corners of an image.
 
 By adding ideas from image processing to neural networks, especially the idea of a 'kernel', convolutional neural networks have achieved fantastic performance on a number of computer vision tasks.
 
-**By the end of this class students should be able to:**
+**By the end of this section students should be able to:**
 
 * Define convolutional neural networks and their critical components.
 * Describe why CNN's are such a good fit for computer vision tasks.
@@ -53,7 +53,7 @@ Just like with artificial neural networks, the theory is great but it's more fun
 
 ## Part 3: Transfer Learning
 
-Transfer learning is a tactic that allows us to take a pre-trained neural network, and apply it to a new task. Transfer learning is especially popular with CNNs because a lot of images share the same useful features, which means the "lessons" learned by a CNN for one task can be immediately applied to another task. In this section we'll look at two different styles of transfer learning, feature extraction and fine-tuning, and apply them using Keras. 
+Transfer learning is a tactic that allows us to take a pre-trained neural network, and apply it to a new task. Transfer learning is especially popular with CNNs because a lot of images share the same useful features, which means the "lessons" learned by a CNN for one task can be immediately applied to another task. In this section we'll look at two different styles of transfer learning, feature extraction and fine-tuning, and apply them using Keras.
 
 ### Pre-Reading
 
@@ -71,6 +71,7 @@ Transfer learning is a tactic that allows us to take a pre-trained neural networ
 
 ### Resources for Further Exploration
 
+* [Paper: How Transferable are Features in Deep Neural Networks?](https://arxiv.org/pdf/1411.1792.pdf)
 * [Fine Tuning and Fixed Transfer](http://cs231n.github.io/transfer-learning/)
 * [A Comprehensive Guide to Transfer Learning](https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a)
 * [Transfer Learning Tutorial With Keras](https://www.hackerearth.com/practice/machine-learning/transfer-learning/transfer-learning-intro/tutorial/)

@@ -18,7 +18,6 @@ pandas = "*"
 sklearn = "*"
 seaborn = "*"
 pillow = "*"
-cv2 = "*"
 opencv-python = "*"
 
 [requires]
