@@ -86,6 +86,5 @@ Image augmentation is a powerful way to turn a small data set into a larger one,
 ### Resources for Further Exploration
 
 * [Image Augmentation for Deep Learning With Keras](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
-* [Data Augmentation: How to use Deep Learning when you have Limited Data](https://medium.com/nanonets/how-to-use-deep-learning-when-you-have-limited-data-part-2-data-augmentation-c26971dc8ced)
 * [Paper: The Effectiveness of Data Augmentation in Image Classification using Deep Learning](http://cs231n.stanford.edu/reports/2017/pdfs/300.pdf)
 * [Preprocessing for deep learning: from covariance matrix to image whitening](https://medium.freecodecamp.org/https-medium-com-hadrienj-preprocessing-for-deep-learning-9e2b9c75165c)
