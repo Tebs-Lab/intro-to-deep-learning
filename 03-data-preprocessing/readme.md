@@ -63,6 +63,9 @@ We'll look at some tactics for examining the data, and for fixing it up for proc
 * [SciKit.Learn Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
 * [Pandas Docs](https://pandas.pydata.org/pandas-docs/stable/index.html)
 * [Pandas Cheatsheet](https://www.dataquest.io/blog/pandas-cheat-sheet/)
+* [New York Housing Dataset](https://www.kaggle.com/new-york-city/nyc-property-sales)
+  * [New York Housing Data Glossery](https://www1.nyc.gov/assets/finance/downloads/pdf/07pdf/glossary_rsf071607.pdf)
+  * [New York Housing Data Building Codes](https://www1.nyc.gov/assets/finance/jump/hlpbldgcode.html)
 
 ### Resources for Further Exploration
 
