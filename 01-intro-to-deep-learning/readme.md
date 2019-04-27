@@ -27,6 +27,7 @@ In this section we'll discuss what neural networks are, the process through whic
 * [Why Deep Learning Over Traditional Machine Learning](https://towardsdatascience.com/why-deep-learning-is-needed-over-traditional-machine-learning-1b6a99177063)
 * [Historical Trends in AI/ML/Deep Learning](https://www.technologyreview.com/s/612768/we-analyzed-16625-papers-to-figure-out-where-ai-is-headed-next/)
 * [High Performance Computing is More Parallel Than Ever](https://medium.com/tebs-lab/the-age-of-parallel-computing-b3f4319c97b0)
+* [OpenAI: AI and Compute](https://openai.com/blog/ai-and-compute/)
 * [Neural Networks Are Hackable](https://towardsdatascience.com/hacking-neural-networks-2b9f461ffe0b)
 
 ## Part 2: Building Neural Networks With Keras

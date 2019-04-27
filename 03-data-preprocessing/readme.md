@@ -61,9 +61,12 @@ We'll look at some tactics for examining the data, and for fixing it up for proc
 ### Helpful Documentation
 
 * [SciKit.Learn Preprocessing](https://scikit-learn.org/stable/modules/preprocessing.html)
+* [Pandas Docs](https://pandas.pydata.org/pandas-docs/stable/index.html)
+* [Pandas Cheatsheet](https://www.dataquest.io/blog/pandas-cheat-sheet/)
 
 ### Resources for Further Exploration
 
+* [Feature Scaling With Pandas and Scikit Learn](http://benalexkeen.com/feature-scaling-with-scikit-learn/)
 * [The complete beginner’s guide to data cleaning and preprocessing](https://towardsdatascience.com/the-complete-beginners-guide-to-data-cleaning-and-preprocessing-2070b7d4c6d)
 * [How to Improve Neural Network Stability and Modeling Performance With Data Scaling](https://machinelearningmastery.com/how-to-improve-neural-network-stability-and-modeling-performance-with-data-scaling/)
 * [Part 1 of Stanfords cs231n, Setting up the data](http://cs231n.github.io/neural-networks-2/)

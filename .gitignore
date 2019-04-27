@@ -1,11 +1,17 @@
+# MacOS
 .DS_STORE
-scratchpad.md
-**/flowers_dataset/
 
+# Specific to Tyler Bettilyon probably.
+scratchpad.md
+
+03-data-preprocessing/datasets
+
+04-convolutional-neural-networks/flowers_dataset/
 04-convolutional-neural-networks/MobileNetV2_features_test.npz
 04-convolutional-neural-networks/MobileNetV2_features_train.npz
 04-convolutional-neural-networks/saved_models/
 04-convolutional-neural-networks/resized/*
+04-convolutional-neural-networks/heatmaps/*
 
 # Created by https://www.gitignore.io/api/python,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=python,jupyternotebook
