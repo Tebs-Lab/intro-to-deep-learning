@@ -53,6 +53,7 @@ It is also worth noting that the past is not the future. ML systems take past da
 * [Paper: Why Should I Trust You? Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
 * [The Story of Microsoft's Tay, The Twitter AI That Learned White Supremacy](https://qz.com/646825/microsofts-ai-millennial-chatbot-became-a-racist-jerk-after-less-than-a-day-on-twitter/)
 * [Attacking Machine Learning With Adversarial Examples](https://openai.com/blog/adversarial-example-research/)
+* [Paper: Fooling automated surveillance cameras: adversarial patches to attack person detection](https://arxiv.org/abs/1904.08653)
   * [Paper: Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572)
 
 ## Part 2: Evaluating, Cleaning, and Preparing Structured Data
