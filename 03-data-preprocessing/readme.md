@@ -41,12 +41,19 @@ It is also worth noting that the past is not the future. ML systems take past da
 * [This is how AI bias really happens—and why it’s so hard to fix](https://www.technologyreview.com/s/612876/this-is-how-ai-bias-really-happensand-why-its-so-hard-to-fix/)
 * [The Risk of ML Bias, and How to Prevent it](https://sloanreview.mit.edu/article/the-risk-of-machine-learning-bias-and-how-to-prevent-it/)
 
-
 ### Resources for Further Exploration
 
+* [Tactics to Handle Class Imbalance](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
+* [Alternative Metrics to Accuracy](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 * [ProPublica Investigation: Machine bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
 * [When The Robot Doesn't See Dark Skin](https://www.nytimes.com/2018/06/21/opinion/facial-analysis-technology-bias.html)
+* [Police Training AI's With Falsified Data](https://www.technologyreview.com/s/612957/predictive-policing-algorithms-ai-crime-dirty-data/)
+* [Wikipedia and the Wisdom of Polarized Crowds](http://nautil.us/issue/70/variables/wikipedia-and-the-wisdom-of-polarized-crowds)
+* [The Right Way to Oversample in Predictive Modeling](https://beckernick.github.io/oversampling-modeling/)
 * [Paper: Why Should I Trust You? Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938)
+* [The Story of Microsoft's Tay, The Twitter AI That Learned White Supremacy](https://qz.com/646825/microsofts-ai-millennial-chatbot-became-a-racist-jerk-after-less-than-a-day-on-twitter/)
+* [Attacking Machine Learning With Adversarial Examples](https://openai.com/blog/adversarial-example-research/)
+  * [Paper: Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572)
 
 ## Part 2: Evaluating, Cleaning, and Preparing Structured Data
 
@@ -71,6 +78,7 @@ We'll look at some tactics for examining the data, and for fixing it up for proc
 
 * [Feature Scaling With Pandas and Scikit Learn](http://benalexkeen.com/feature-scaling-with-scikit-learn/)
 * [The complete beginner’s guide to data cleaning and preprocessing](https://towardsdatascience.com/the-complete-beginners-guide-to-data-cleaning-and-preprocessing-2070b7d4c6d)
+* [How To Prepare Your Data For Machine Learning in Python with Scikit-Learn](https://machinelearningmastery.com/prepare-data-machine-learning-python-scikit-learn/)
 * [How to Improve Neural Network Stability and Modeling Performance With Data Scaling](https://machinelearningmastery.com/how-to-improve-neural-network-stability-and-modeling-performance-with-data-scaling/)
 * [Part 1 of Stanfords cs231n, Setting up the data](http://cs231n.github.io/neural-networks-2/)
 
