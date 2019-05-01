@@ -47,6 +47,8 @@ Just like with artificial neural networks, the theory is great but it's more fun
 
 ### Resources for Further Exploration
 
+* [cs231: Convolutional Networks](https://cs231n.github.io/convolutional-networks/)
+* [cs231: Understanding Convolutional Networks](https://cs231n.github.io/understanding-cnn/)
 * [Detailed Intro to Keras CNNs](https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/)
 * [More detailed implementation of Keras CNN & Fashion MNIST](https://www.pyimagesearch.com/2019/02/11/fashion-mnist-with-keras-and-deep-learning/)
 * [Gradient Activated Heat Maps paper](https://arxiv.org/abs/1610.02391)
@@ -82,33 +84,29 @@ Transfer learning is a tactic that allows us to take a pre-trained neural networ
 * [Nice stack Exchange answer on fine tuning](https://datascience.stackexchange.com/questions/28383/using-a-pre-trained-cnn-classifier-and-apply-it-on-a-different-image-dataset/28387#28387)
 * [A Dog Breed Dataset on Kaggle, a good candidate for your own transfer learning application since ImageNet includes some dog breeds already](https://www.kaggle.com/c/dog-breed-identification/data)
 
-## Part 4: CNNs For Segmentation
+## Part 4: Localization and Segmentation
+
+Object localization and segmentation are both forms of detecting where in an image some object is. We call this task object localization when the result is a bounding box (a rectangle that contains the object in question) and segmentation when we identify the specific pixels within the image that contain the object in question. Typically, networks that localize objects also classify the objects. Although that is not strictly a requirement, it's obviously more useful if the network can say "There is a cat right there," and less useful to say, "An object is right there."
+
+Many of the same CNN architectures that are effective for classification are effective for localization and segmentation. Changes must be made to the output layers, since the meaning of a prediction has changed from, "This is an image of [CLASS]." to "This is an image of [CLASS] which exists within (x, y, w, h)" where those four integers represent the bounding box, e.i. (x, y) is the top left corner of the box and (w, h) is width and height of the box.
+
+Segmentation requires even more output data. In fact, for segmentation the output must be an activation map with the same dimensions as the input image where (for single item segmentation) each pixel is labeled as 0 (not a pixel belonging to the object) or 1 (a pixel belonging to the object). One way to handle more classes is to add more activation maps the output layer, generally one per class. Although there are others, see YOLO in additional resources.
 
 ### Pre-Reading
 
 
-SAVED FOR LATER READING, EVALUATE THESE:
-
-[U-NET](https://arxiv.org/abs/1505.04597)
-[U-Net Implementation Keras](https://github.com/zhixuhao/unet)
-
-https://towardsdatascience.com/using-image-segmentation-to-identify-rooftops-in-low-resolution-satellite-images-c791975d91cc
-
-
-
-* https://www.microsoft.com/developerblog/2018/07/18/semantic-segmentation-small-data-using-keras-azure-deep-learning-virtual-machine/
-
-* https://medium.com/@hanrelan/a-non-experts-guide-to-image-segmentation-using-deep-neural-nets-dda5022f6282
-
-* https://www.kaggle.com/c/ultrasound-nerve-segmentation/discussion/21358
-
-* https://github.com/divamgupta/image-segmentation-keras
-
+* [Gentle Introduction to YOLO Object Detection Part 1](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
 
 ### Helpful Documentation
 
-*
+
 
 ### Resources for Further Exploration
 
-*
+* [Gentle Introduction to YOLO Part 2](https://heartbeat.fritz.ai/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-2-65fe59ac12d)
+* [Segmentation implementations in Keras]( https://github.com/divamgupta/image-segmentation-keras)
+* [Kaggle Ultrasound Nerve Segmentation Dataset & Challenge](https://www.kaggle.com/c/ultrasound-nerve-segmentation/discussion/21358)
+* [A Non-Experts Guide to Segmentation With Keras](https://medium.com/@hanrelan/a-non-experts-guide-to-image-segmentation-using-deep-neural-nets-dda5022f6282)
+* [Microsoft Developer Blog about U-Net For Segmentation](https://www.microsoft.com/developerblog/2018/07/18/semantic-segmentation-small-data-using-keras-azure-deep-learning-virtual-machine/)
+* [Paper: U-Net](https://arxiv.org/abs/1505.04597)
+* [Open Source Keras Implementation of U-Net](https://github.com/zhixuhao/unet)

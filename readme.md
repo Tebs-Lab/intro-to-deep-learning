@@ -24,8 +24,9 @@ Each class and section has its own resources and reading material to help studen
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 * [Popular Benchmarks Through 2015](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d313030)
 
-## Kaggle Datasets
+## Public Datasets
 
 Throughout this course, you'll be learning more about how to use neural networks through the use of specific datasets. In order to put these skills into practice, it's a great idea to try putting these principles into practice. Kaggle has a lot of great datasets for you to do this, check it out:
 
-[Big list of public Kaggle datasets](https://www.kaggle.com/annavictoria/ml-friendly-public-datasets)
+* [Big list of public Kaggle datasets (classification & regression)](https://www.kaggle.com/annavictoria/ml-friendly-public-datasets)
+* [Oxford-IIT Pet Dataset (object localization & segmentation)](http://www.robots.ox.ac.uk/~vgg/data/pets/)
