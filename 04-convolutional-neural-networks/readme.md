@@ -11,7 +11,7 @@ By adding ideas from image processing to neural networks, especially the idea of
 * Build convolutional neural networks using Keras.
 * Describe the concept of Transfer Learning and apply it to CNNs using Keras.
 * Contrast classification and segmentation.
-* Apply CNNs to perform both classification and segmentation.
+* Apply CNNs to perform classification, localization, and segmentation.
 
 ## Part 1: What Are CNNs and What Are They Good At?
 
@@ -94,15 +94,15 @@ Segmentation requires even more output data. In fact, for segmentation the outpu
 
 ### Pre-Reading
 
-
-* [Gentle Introduction to YOLO Object Detection Part 1](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
+* [Evolution of Objet Detection](https://towardsdatascience.com/evolution-of-object-detection-and-localization-algorithms-e241021d8bad)
 
 ### Helpful Documentation
 
-
+*
 
 ### Resources for Further Exploration
 
+* [Gentle Introduction to YOLO Object Detection Part 1](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
 * [Gentle Introduction to YOLO Part 2](https://heartbeat.fritz.ai/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-2-65fe59ac12d)
 * [Segmentation implementations in Keras]( https://github.com/divamgupta/image-segmentation-keras)
 * [Kaggle Ultrasound Nerve Segmentation Dataset & Challenge](https://www.kaggle.com/c/ultrasound-nerve-segmentation/discussion/21358)

@@ -7,6 +7,7 @@ scratchpad.md
 03-data-preprocessing/datasets
 
 04-convolutional-neural-networks/flowers_dataset/
+04-convolutional-neural-networks/pets_dataset/
 04-convolutional-neural-networks/MobileNetV2_features_test.npz
 04-convolutional-neural-networks/MobileNetV2_features_train.npz
 04-convolutional-neural-networks/saved_models/
