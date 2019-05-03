@@ -95,13 +95,21 @@ Segmentation requires even more output data. In fact, for segmentation the outpu
 ### Pre-Reading
 
 * [Evolution of Objet Detection](https://towardsdatascience.com/evolution-of-object-detection-and-localization-algorithms-e241021d8bad)
+* [An overview of semantic image segmentation](https://www.jeremyjordan.me/semantic-segmentation/)
 
 ### Helpful Documentation
 
-*
+* [Keras Losses](https://keras.io/losses/)
+* [Keras Backends](https://keras.io/backend/)
+* [Keras Functional API](https://keras.io/getting-started/functional-api-guide/)
+* [Keras Conv2DTranspose](https://keras.io/layers/convolutional/#conv2dtranspose)
 
 ### Resources for Further Exploration
 
+* [Multi-output models in Keras](https://www.pyimagesearch.com/2018/06/04/keras-multiple-outputs-and-multiple-losses/)
+* [Intersection Over Union](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)
+* [Loss functions for Segmentation](https://lars76.github.io/neural-networks/object-detection/losses-for-segmentation/)
+* [Transposed Convolutions](https://medium.com/apache-mxnet/transposed-convolutions-explained-with-ms-excel-52d13030c7e8)
 * [Gentle Introduction to YOLO Object Detection Part 1](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
 * [Gentle Introduction to YOLO Part 2](https://heartbeat.fritz.ai/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-2-65fe59ac12d)
 * [Segmentation implementations in Keras]( https://github.com/divamgupta/image-segmentation-keras)
@@ -110,3 +118,4 @@ Segmentation requires even more output data. In fact, for segmentation the outpu
 * [Microsoft Developer Blog about U-Net For Segmentation](https://www.microsoft.com/developerblog/2018/07/18/semantic-segmentation-small-data-using-keras-azure-deep-learning-virtual-machine/)
 * [Paper: U-Net](https://arxiv.org/abs/1505.04597)
 * [Open Source Keras Implementation of U-Net](https://github.com/zhixuhao/unet)
+* [Some Object Localization Experiments on Github w/ Pet Dataset](https://github.com/lars76/object-localization)
