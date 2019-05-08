@@ -19,6 +19,10 @@ sklearn = "*"
 seaborn = "*"
 pillow = "*"
 opencv-python = "*"
+gym = "*"
+box2d = "*"
+box2d-kengz = "*"
+jsanimation = "*"
 
 [requires]
 python_version = "3.7"

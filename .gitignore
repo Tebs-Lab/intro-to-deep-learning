@@ -14,6 +14,9 @@ scratchpad.md
 04-convolutional-neural-networks/resized/*
 04-convolutional-neural-networks/heatmaps/*
 
+05-reinforcement-learning/gym-videos/
+06-deep-reinforcement-learning/gym-videos/
+
 # Created by https://www.gitignore.io/api/python,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=python,jupyternotebook
 
