@@ -33,6 +33,7 @@ The first kind of reinforcement learning we're going to build is called Q-Learni
 
 * [UC Berkeley's Pacman Reinforcement Learning Exercise](http://ai.berkeley.edu/reinforcement.html)
 * [UC Berkeley's AI Lectures, Markov Decision Processes and Reinforcement Learning are especially relevant](http://ai.berkeley.edu/lecture_videos.html)
+* [Reinforcement Learning Demystified](https://towardsdatascience.com/reinforcement-learning-demystified-36c39c11ec14)
 * [Reinforcement Learning Article Series](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0)
 
 ## Part 3: Q-Learning Drawbacks and Advanced Tactics
@@ -48,6 +49,8 @@ Reward augmentation and function approximation are tactics to mitigate these pro
 ### Helpful Documentation
 
 ### Resources for Further Exploration
+
+* [Exploration vs Exploitation](https://towardsdatascience.com/reinforcement-learning-demystified-exploration-vs-exploitation-in-multi-armed-bandit-setting-be950d2ee9f6)
 
 ### External Dependencies
 
