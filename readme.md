@@ -1,10 +1,22 @@
 # Introduction To Deep Learning
 
-These resources are meant to be used to teach an introductory course on deep learning.
+Welcome to the Teb's Lab introduction to deep learning curriculum. These materials are meant to support instructors and self learners who want to dive into the world of neural networks and deep learning. The structure of this repository is an ordered collection of introductory reading materials, practical walk throughs, and additional resources to help you practice and explore these topics in more depth.
 
-## Running The Notebooks
+These resources are primarily targeting people who are getting started with machine learning, and they not a comprehensive study of deep learning. Since the field seems to evolve every few minutes, some of the information here might be outdated by the time you arrive. With that in mind, these materials put a focus on the foundational information that can serve as a jumping off point for future study.
 
-You'll need to install Python3 and   [`pipenv`](https://pipenv.readthedocs.io), then:
+Each folder represents a larger sub-topic within the field of deep learning. Within each folder you'll find a readme and a series of Jupyter Notebooks. Each readme contains a brief overview of the topic and describes the sub-topics. Each sub-topic has pre-reading suggestions, a Jupyter Notebook that demonstrates how to put the concepts in the pre-reading into practice, documentation related to the techniques and tools used in the notebook, and suggested resources for further exploration of the sub-topic.
+
+While the notebooks strive to adequately describe their topics, they all have conspicuous imperfections. Students using these materials are strongly encouraged to not just read the notebooks, but change and expand them in order to improve the performance of the models therein. Doing so will significantly improve your understanding of the topics presented.
+
+Some subdomains are conspicuously missing, such as Generative Adversarial Networks (GAN) and Natural Language Processing (NLP). These topics may be added at a later date. However, it is our hope that the information in these notebooks is sufficient that students who work through it will be able to explore these more advanced topics on their own.
+
+## Using These Materials
+
+### Running The Notebooks Locally
+
+These materials are not static, and are not meant to be consumed that way. While we believe reading through at the information in the Jupyter Notebooks as they are is a useful reference, and a helpful starting place, the format was chosen to encourage modification and exploration. We suggest that students fork this repository then clone it onto their machine and make significant alterations to the notebooks as they explore deep learning. If you're new to Git/Github you can learn how to [fork and clone the repo here](https://help.github.com/en/articles/fork-a-repo)
+
+To run the notebooks, you'll need to have Python3 and [`pipenv`](https://pipenv.readthedocs.io) installed. Instructions for installing Pipenv can be found at the previous link. Most computers come with a version of Python3 already installed, but if yours does not you may [follow these instructions](https://realpython.com/installing-python/). Once you have installed Python3 and Pipenv navigate to the main repo folder and run the following commands:
 
 ```
 pipenv install
@@ -14,15 +26,37 @@ jupyter nbextensions_configurator enable --user
 jupyter notebook
 ```
 
+For subsequent runs, you'll only need to run:
+
+```
+pipenv shell
+jupyter notebook
+```
+
+A new tab should open in your web browser allowing you to navigate the Jupyter Notebooks.
+
+### Using Google Colab
+
+Alternatively, most of these notebooks can be run on [Google Colaboratory](https://colab.research.google.com) directly. Google Colab has options to open Jupyter Notebooks directly from Github. When you land on the Colab homepage a box with a gold/orange navigational header will appear, click the "Github" link and type "tebs-lab" into the provided search bar, then in the drop-down menu select this repository, "intro-to-deep-learning".
+
+![](assets/colab-github.png)
+
+A list of all the notebooks in this repo should appear. Select the one you wish to open and you should be off to the races.
+
+The Colab approach has a handful of downsides. First, for some of the labs (in particular the Deep Reinforcement Learning material) require dependencies that are not supported out of the box on Colab. There are ways to [add these dependencies to a Colab instance](https://cloud.google.com/datalab/docs/how-to/adding-libraries), but it is not always straightforward to do so.
+
+Secondly, some of the notebooks require external data sets that, for either size or licensing reasons, cannot be included in this repository itself. In those cases we have tried to leave clear instructions on how to obtain the relevant datasets and other resources. Data wrangling is a very real part of work as a machine learning practitioner, and we believe these exercises to be valuable practice. Again, it is [possible to upload this data into Colab](https://medium.com/@yuraist/how-to-upload-your-own-dataset-into-google-colab-e228727c87e9) but not as easy as running the labs locally.
+
+If you have a computer without much processing power, Colab is a good way to leverage Google's computational resources to get better performance and decrease training time.
+
 ## Big Picture Resources
 
-Each class and section has its own resources and reading material to help students prepare for each individual topic, and explore that topic further. While these piecemeal resources are useful, it is also helpful to have larger, cohesive, and more complete resources to rely on.
+Each class and section has its own resources and reading material to help students prepare for each individual topic, and explore that topic further. While these piecemeal resources are useful, it is also helpful to have larger, cohesive, and more complete resources to rely on. Additionally, this course focuses heavily on practical application of deep learning tactics.
 
- The following are those big picture, cohesive, complete resources, and they be useful to curious students throughout the course and beyond.
+The following resources dive more deeply into the theory and mathematics of deep learning in a way that many of the individual readings do not. These are big picture, cohesive, complete resources, and they be useful to curious students throughout the course and beyond.
 
 * [The Deep Learning Book](http://www.deeplearningbook.org/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
-* [Popular Benchmarks Through 2015](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html#43494641522d313030)
 
 ## Public Datasets
 
@@ -30,3 +64,17 @@ Throughout this course, you'll be learning more about how to use neural networks
 
 * [Big list of public Kaggle datasets (classification & regression)](https://www.kaggle.com/annavictoria/ml-friendly-public-datasets)
 * [Oxford-IIT Pet Dataset (object localization & segmentation)](http://www.robots.ox.ac.uk/~vgg/data/pets/)
+
+## Copyright and Licensing
+
+The purpose of this repository is purely educational.
+
+The information and code here is provided without warranty of any kind.
+
+All of the original code and writing in this repo has been released to the public domain. You may use it for any purpose whatsoever, without restriction.
+
+There are a handful of images that are linked from external articles and therefore covered by existing copyrights. Teb's Lab makes no claim on these materials, nor are they included in the public domain dedication. Such images are clearly labeled with their source in the notebooks in which they appear. If you wish to use those images in a way that is not covered by fair use, it is your responsibility to obtain permission from the copyright owner before doing so.
+
+## Support Teb's Lab
+
+These materials were created by [Tyler Bettilyon](https://www.linkedin.com/in/tylerbettilyon/) and [Teb's Lab](https://tebs-lab.com). You can support the creation of more free, open source, public domain educational materials by sharing them with others, [subscribing to our newsletter](http://eepurl.com/dum8IP) or becoming a subscriber on [Patreon](https://www.patreon.com/tebsLab).
