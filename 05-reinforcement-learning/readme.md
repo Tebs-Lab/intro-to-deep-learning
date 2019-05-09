@@ -1,5 +1,7 @@
 # Section 5: Reinforcement Learning
 
+**This section is incomplete, it will be updated very soon**
+
 In contrast to supervised learning—of which CNNs and DNNs are an example—reinforcement learning is focused on creating agents that can make decisions in an evolving environment. Neural networks are primarily focused on classifying individual pieces of data. Is that a cat? Is this a bird? Reinforcement learning systems are about acting and adapting. They are better suited to tasks like playing a video game, driving a car, controlling robotics systems, and trading stocks.
 
 Reinforcement learning is not inherently linked to deep learning, but some of the most interesting recent developments in the world of AI involve combining reinforcement learning and deep learning. Deep learning techniques help the computer understand the environment and reinforcement learning helps the system decide what to do with that information.
