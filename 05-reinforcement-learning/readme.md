@@ -10,11 +10,32 @@ Reinforcement learning is not inherently linked to deep learning, but some of th
 
 * Define reinforcement learning and differentiate it from supervised learning.
 * Identify situations where reinforcement learning can be applied.
-* Build a policy based reinforcement learning agent and train it on an OpenAI Gym environment.
+* Build a policy based reinforcement learning agent (specifically Q-Learning) and train it on an OpenAI Gym environment.
+* Describe some weaknesses/challenges associated with Q-Learning, specifically:
+  * Continuous state-spaces
+  * Sparse rewards
+* Discretize continuous state spaces in order to apply Q-Learning.
+* Apply reward augmentation to address sparse rewards.
 
 ## Part 1: Reinforcement Learning Concepts
 
-...todo...
+Reinforcement learning requires us to model our problem using the following two constructs:
+
+* An agent, the thing that makes decisions.
+* An environment, the world which encodes what decisions can be made, and the impact of those decisions.  
+
+The environment contains all the possible states, knows all the actions that can be taken from each state, and knows when rewards should be given and what the magnitude of those rewards should be. An agent gets this information from the environment by exploring and learns from experience which states provide the best rewards. Rewards slowly percolate outward to neighboring states iteratively, which helps the agent make decisions over longer time horizons.
+
+### Pre-Reading
+
+* [Reinforcement Learning Demystified: A Gentle Introduction](https://towardsdatascience.com/reinforcement-learning-demystified-36c39c11ec14)
+* [Applications of Reinforcement Learning in Real World](https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12)
+
+### Resources for Further Exploration
+
+* [Richard Sutton's Book, Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
+* [Reinforcement Learning Demystified: Markov Decision Processes (Part 2)](https://towardsdatascience.com/reinforcement-learning-demystified-markov-decision-processes-part-2-b209e8617c5a)
+
 
 ## Part 2: Building A Q-Agent
 
@@ -28,8 +49,8 @@ The first kind of reinforcement learning we're going to build is called Q-Learni
 ### Helpful Documentation
 
 * [OpenAI Gym Docs](http://gym.openai.com/docs/)
-* [OpenAI Lunar Lander Environment](http://gym.openai.com/envs/LunarLander-v2/)
-* [Lunar Lander Source Code](https://github.com/openai/gym/blob/master/gym/envs/box2d/lunar_lander.py)
+* [Frozen Lake Docs](https://gym.openai.com/envs/FrozenLake-v0/)
+* [Frozen Lake Implementation](https://github.com/openai/gym/blob/master/gym/envs/toy_text/frozen_lake.py)
 
 ### Resources for Further Exploration
 
@@ -50,9 +71,12 @@ Reward augmentation and function approximation are tactics to mitigate these pro
 
 ### Helpful Documentation
 
+* [OpenAI Lunar Lander Environment](http://gym.openai.com/envs/LunarLander-v2/)
+* [Lunar Lander Source Code](https://github.com/openai/gym/blob/master/gym/envs/box2d/lunar_lander.py)
+
 ### Resources for Further Exploration
 
-* [Exploration vs Exploitation](https://towardsdatascience.com/reinforcement-learning-demystified-exploration-vs-exploitation-in-multi-armed-bandit-setting-be950d2ee9f6)
+
 
 ### External Dependencies
 
