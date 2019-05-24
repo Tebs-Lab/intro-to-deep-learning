@@ -1,7 +1,5 @@
 # Section 5: Reinforcement Learning
 
-**This section is incomplete, it will be updated very soon**
-
 In contrast to supervised learning—of which CNNs and DNNs are an example—reinforcement learning is focused on creating agents that can make decisions in an evolving environment. Neural networks are primarily focused on classifying individual pieces of data. Is that a cat? Is this a bird? Reinforcement learning systems are about acting and adapting. They are better suited to tasks like playing a video game, driving a car, controlling robotics systems, and trading stocks.
 
 Reinforcement learning is not inherently linked to deep learning, but some of the most interesting recent developments in the world of AI involve combining reinforcement learning and deep learning. Deep learning techniques help the computer understand the environment and reinforcement learning helps the system decide what to do with that information.
@@ -69,6 +67,8 @@ Reward augmentation and function approximation are tactics to mitigate these pro
 
 ### Pre-reading
 
+* [Learning to Generalize from Sparse and Underspecified Rewards](https://ai.googleblog.com/2019/02/learning-to-generalize-from-sparse-and.html)
+
 ### Helpful Documentation
 
 * [OpenAI Lunar Lander Environment](http://gym.openai.com/envs/LunarLander-v2/)
@@ -76,13 +76,20 @@ Reward augmentation and function approximation are tactics to mitigate these pro
 
 ### Resources for Further Exploration
 
+* [UC Berkeley's Pacman Reinforcement Learning Exercise (again)](http://ai.berkeley.edu/reinforcement.html)
+* [UC Berkeley's AI Lectures, Markov Decision Processes and Reinforcement Learning are especially relevant (also again)](http://ai.berkeley.edu/lecture_videos.html)
 
+### NOTE: External Dependencies For Lunar Lander
 
-### External Dependencies
-
-I had to install box2d and ffmpeg using brew to get the lunar lander environment to work:
+I had to install additional dependencies that are not built into OpenAI Gym or any of the other frameworks. Specifically: box2d and ffmpeg. On MacOS you can use brew to install these:
 
 ```
 brew install box2d
 brew install ffmpeg
 ```
+
+For other platforms, or more details, see the following:
+
+* [Box2D installation help, Windows](https://towardsdatascience.com/how-to-install-openai-gym-in-a-windows-environment-338969e24d30)
+* [All OpenAI Gym dependencies guide, Linux](http://www.kiranjose.in/blogs/getting-started-with-openai-gym-part-1-installation-and-configuration/)
+* [FFMPEG Installation help](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
