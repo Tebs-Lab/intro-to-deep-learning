@@ -53,7 +53,7 @@ If you have a computer without much processing power, Colab is a good way to lev
 
 Each class and section has its own resources and reading material to help students prepare for each individual topic, and explore that topic further. While these piecemeal resources are useful, it is also helpful to have larger, cohesive, and more complete resources to rely on. Additionally, this course focuses heavily on practical application of deep learning tactics.
 
-The following resources dive more deeply into the theory and mathematics of deep learning in a way that many of the individual readings do not. These are big picture, cohesive, complete resources, and they be useful to curious students throughout the course and beyond.
+The following resources dive more deeply into the theory and mathematics of deep learning in a way that many of the individual readings do not. These are big picture, cohesive, complete resources, and they will be useful to curious students throughout the course and beyond.
 
 * [The Deep Learning Book](http://www.deeplearningbook.org/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
