@@ -57,6 +57,7 @@ The following resources dive more deeply into the theory and mathematics of deep
 
 * [The Deep Learning Book](http://www.deeplearningbook.org/)
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+* [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/bookdraft2017nov5.pdf)
 
 ## Public Datasets
 
