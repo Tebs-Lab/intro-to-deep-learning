@@ -23,6 +23,8 @@ gym = "*"
 box2d = "*"
 box2d-kengz = "*"
 jsanimation = "*"
+keras-rl = "*"
+atari-py = "*"
 
 [requires]
 python_version = "3.7"
