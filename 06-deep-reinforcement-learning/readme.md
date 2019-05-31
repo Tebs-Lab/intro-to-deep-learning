@@ -16,7 +16,7 @@ In recent years several improvements to the naive DQN approach have emerged.  Se
 
 ### Pre-Reading
 
-* [https://www.freecodecamp.org/news/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682/](Improvements to Deep Q Learning)
+* [Improvements to Deep Q Learning](https://www.freecodecamp.org/news/improvements-in-deep-q-learning-dueling-double-dqn-prioritized-experience-replay-and-fixed-58b130cc5682/)
 
 ### Helpful Documentation
 
