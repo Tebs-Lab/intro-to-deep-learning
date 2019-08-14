@@ -54,7 +54,11 @@ Use Keras to build 3 networks, each with at least 10 hidden layers such that:
 * The second model has between 10-50 nodes per layer.
 * The third model has between 50-100 nodes per layer.
 
+Then, answer these questions:  
+
 * Did any of these models achieve better than 20% accuracy on validation or test data?
+  * State a hypothesis about why these networks performed the way they did.
+  * *An answer to this question is given in a notebook from the next section [01-activations](/02-training-and-regularization-tactics/01-activations.ipynb)*
 * How many total trainable parameters do each of these models have?
 * Is there a clear correlation between number of trainable parameters and accuracy?
   * Consider your results from part one in answering this question.
