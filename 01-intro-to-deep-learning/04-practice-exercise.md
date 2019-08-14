@@ -19,7 +19,7 @@ You may wish to use Jupyter notebooks to complete this exercise or you might pre
 
 This exercise should take between 30 minutes and 1 hour to complete. The provided Jupyter notebooks contain much of the information you need to complete this exercise. However, you should also expect to look up information from the Keras docs, the provided external reading material, and other sources. You are encouraged to search for information on your own.
 
-Finally, this is not an exam. Correct answers are not provided. Furthermore, the exercise has enough ambiguity that many different answers will qualify as correct. You should be able to prove the correctness of your own answers using readily available tools.
+Finally, this is not an exam. Correct answers are not provided. In fact, the exercise has enough ambiguity that many different answers will qualify as correct. You should be able to prove the correctness of your own answers using readily available tools—and in so doing you'll have learned quite a lot.
 
 ## The Exercise
 
@@ -48,7 +48,11 @@ Use Keras to build a network with a single hidden layer at fewer than 50,000 tra
 
 ### Part Two:
 
-Use Keras to build 3 networks, each with 10 or more hidden layers and any number of trainable parameters.
+Use Keras to build 3 networks, each with at least 10 hidden layers such that:
+
+* The first model has fewer than 10 nodes per layer.
+* The second model has between 10-50 nodes per layer.
+* The third model has between 50-100 nodes per layer.
 
 * Did any of these models achieve better than 20% accuracy on validation or test data?
 * How many total trainable parameters do each of these models have?
