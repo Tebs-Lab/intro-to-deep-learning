@@ -35,6 +35,29 @@ jupyter notebook
 
 A new tab should open in your web browser allowing you to navigate the Jupyter Notebooks.
 
+#### Note: Dev Dependencies for Reinforcement Learning Sections
+
+The Deep Reinforcement Learning sections require additional dependencies that are, in many cases, not as simple to install. These dependencies are listed as dev-packages in the `Pipfile`, and as such are **not** installed by default. These packages, specifically the code that allows OpenAI's `gym` package to run Atari games, cannot all be installed using `pip` or `pipenv` alone. To run the code in sections 5 & 6, you will need to do the following:
+
+Install `box2d` and `ffmpeg` using something other than `pip`:
+
+For Mac users:
+
+```
+brew install box2d
+brew install ffmpeg
+```
+
+For other platforms, or more details, see the following:
+
+* [Box2D installation help, Windows](https://towardsdatascience.com/how-to-install-openai-gym-in-a-windows-environment-338969e24d30)
+* [All OpenAI Gym dependencies guide, Linux](http://www.kiranjose.in/blogs/getting-started-with-openai-gym-part-1-installation-and-configuration/)
+* [FFMPEG Installation help](https://github.com/adaptlearning/adapt_authoring/wiki/Installing-FFmpeg)
+
+Once `box2d` and `ffmpeg` have been installed install the dev-packages using this command:
+
+`pipenv install -d`
+
 ### Using Google Colab
 
 Alternatively, most of these notebooks can be run on [Google Colaboratory](https://colab.research.google.com) directly. Google Colab has options to open Jupyter Notebooks directly from Github. When you land on the Colab homepage a box with a gold/orange navigational header will appear, click the "Github" link and type "tebs-lab" into the provided search bar, then in the drop-down menu select this repository, "intro-to-deep-learning".

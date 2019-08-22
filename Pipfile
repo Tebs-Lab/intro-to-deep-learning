@@ -4,6 +4,12 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+atari-py = "*"
+gym = "*"
+box2d = "*"
+box2d-kengz = "*"
+jsanimation = "*"
+keras-rl = "*"
 
 [packages]
 jupyter = "*"
@@ -19,12 +25,6 @@ sklearn = "*"
 seaborn = "*"
 pillow = "*"
 opencv-python = "*"
-gym = "*"
-box2d = "*"
-box2d-kengz = "*"
-jsanimation = "*"
-keras-rl = "*"
-atari-py = "*"
 
 [requires]
 python_version = "3.7"

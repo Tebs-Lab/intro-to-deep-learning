@@ -1,5 +1,11 @@
 # Deep Reinforcement Learning
 
+## Important Dependencies Note:
+
+To run the code in this section, additional dependencies are required. See the [main readme](/readme.md) for installation instructions under the heading "Note: Dev Dependencies for Reinforcement Learning Sections"
+
+## Deep Reinforcement Learning:
+
 Deep reinforcement learning marries the concepts from deep neural networks and reinforcement learning. In this section we look at one class of deep reinforcement learning algorithm: Deep Q-Networks (DQNs). Instead of keeping track of a table of possible state-action pairs and their transitions, we use a deep neural network.
 
 ## Part 1: Intro to Deep Reinforcement Learning / Naive DQNs
