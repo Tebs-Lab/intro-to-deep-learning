@@ -1,4 +1,4 @@
-# Exercise: Build a CNN
+# Exercise: Apply Transfer Learning With CNNs
 
 In this exercise, your will be implementing transfer learning to retrain models that have been trained on the ImageNet dataset in order to perform classification on the CIFAR dataset.
 
@@ -45,4 +45,4 @@ Your goal is to compare the performance of two styles of transfer learning on tw
 
 ### Part 3: Repeat
 
-Repeat the previous two sections with a different base model (Xception for example instead of MobileNetV2), and compare your results. Make a note especially of the difference in training time—some of these models are significantly more complex. 
+Repeat the previous two sections with a different base model (Xception for example instead of MobileNetV2), and compare your results. Make a note especially of the difference in training time—some of these models are significantly more complex.
