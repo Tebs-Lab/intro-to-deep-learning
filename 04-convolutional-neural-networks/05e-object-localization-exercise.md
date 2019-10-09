@@ -51,6 +51,10 @@ You'll have to decide which loss functions to use, and how to weight the predict
 
 **Challenge Opportunity** in the provided notebook, we only classify images as being of a "dog" or "cat" but the provided dataset has more detailed labels for the breed of each dog or cat. You can choose to implement a simpler "dog or cat" classifier, as done in the provided notebook, or make your network predict the breed. If you go for breed then your classification head will need a node for each possible breed, which means you will also not want to use `binary_crossentropy` as your loss function, since it is designed for binary classifiers.
 
+**Challenge Opportunity** in the provided notebook we have our network predict the pixel position of the bounding box. Better performance can often be achieved by normalizing these values between 0-1. In other words, for each of the four points in our bounding box, have your model predict those positions as a scalar relative to the image size, rather than absolute pixel position. Normalizing these outputs will require you to change the way we process the image and XML input data.
+
+**Challenge Opportunity** Accuracy is one popular metric for judging the performance of a classifier. [Intersection over Union](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/) is a popular metric for judging the accuracy of an object localization model. Consider implementing a custom metric to compute the intersection over union as a validation metric for your model, and plot its change over time during training alongside accuracy and the `mse` loss.
+
 ### Part 4: Train and evaluate the model
 
 Training the model may take a long time, particularly if you'd like to do several epochs. Once you've trained the network evaluate its performance by looking at the loss and accuracy metrics, as well as looking at several of your networks predictions. Code for visualizing the networks predicted bounding boxes and the ground truth from in the dataset is provided in the Object Localization Jupyter notebook.
