@@ -52,6 +52,7 @@ Just like with artificial neural networks, the theory is great but it's more fun
 * [Detailed Intro to Keras CNNs](https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/)
 * [More detailed implementation of Keras CNN & Fashion MNIST](https://www.pyimagesearch.com/2019/02/11/fashion-mnist-with-keras-and-deep-learning/)
 * [Gradient Activated Heat Maps paper](https://arxiv.org/abs/1610.02391)
+* [Visualizing Internal Convolutional Layers](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
 
 ## Part 3: Transfer Learning
 
@@ -68,7 +69,7 @@ Transfer learning is a tactic that allows us to take a pre-trained neural networ
 * [Keras Pre-built Models](https://keras.io/applications/)
 * [ImageNet Documentation](http://image-net.org/about-overview)
 * [ImageNet classifications dictionary](https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a)
-* [Image transform using PIL](https://jdhao.github.io/2017/11/06/resize-image-to-square-with-padding/)]
+* [Image transform using PIL](https://jdhao.github.io/2017/11/06/resize-image-to-square-with-padding/)
 * [Pillow documentation](https://pillow.readthedocs.io/en/stable/)
 
 ### Resources for Further Exploration
