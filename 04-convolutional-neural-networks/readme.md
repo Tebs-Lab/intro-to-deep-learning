@@ -52,6 +52,7 @@ Just like with artificial neural networks, the theory is great but it's more fun
 * [Detailed Intro to Keras CNNs](https://www.pyimagesearch.com/2018/12/31/keras-conv2d-and-convolutional-layers/)
 * [More detailed implementation of Keras CNN & Fashion MNIST](https://www.pyimagesearch.com/2019/02/11/fashion-mnist-with-keras-and-deep-learning/)
 * [Gradient Activated Heat Maps paper](https://arxiv.org/abs/1610.02391)
+  * [Somewhat More Approachable GRAD-CAM Writeup](https://jacobgil.github.io/deeplearning/class-activation-maps)
 * [Visualizing Internal Convolutional Layers](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
 
 ## Part 3: Transfer Learning
