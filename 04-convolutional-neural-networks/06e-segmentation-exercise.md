@@ -1,6 +1,6 @@
 # Exercise: Perform Segmentation With a CNN
 
-In this exercise you'll be asked to recreate some of the features from the previous Jupyter notebook in order to create a neural network that performs segmentation. You'll also be asked to use a custom loss function in order to improve the performance above and beyond the levels that the previous notebook achieves.
+In this exercise you'll be asked to recreate some of the features from the previous Jupyter notebook in order to create a neural network that performs segmentation. 
 
 ## Exercise Goals
 
