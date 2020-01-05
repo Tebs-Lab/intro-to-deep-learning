@@ -46,6 +46,7 @@ It is also worth noting that the past is not the future. ML systems take past da
 * [Tactics to Handle Class Imbalance](https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/)
 * [Alternative Metrics to Accuracy](https://machinelearningmastery.com/classification-accuracy-is-not-enough-more-performance-measures-you-can-use/)
 * [ProPublica Investigation: Machine bias](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+* [Three Perspectives on AI Bias](https://www.nytimes.com/2019/11/19/technology/artificial-intelligence-bias.html)
 * [When The Robot Doesn't See Dark Skin](https://www.nytimes.com/2018/06/21/opinion/facial-analysis-technology-bias.html)
 * [Police Training AI's With Falsified Data](https://www.technologyreview.com/s/612957/predictive-policing-algorithms-ai-crime-dirty-data/)
 * [Wikipedia and the Wisdom of Polarized Crowds](http://nautil.us/issue/70/variables/wikipedia-and-the-wisdom-of-polarized-crowds)
