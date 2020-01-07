@@ -58,3 +58,4 @@ In this section we'll explore some of the impacts of different network architect
 * [How To Configure The Number of Nodes and Layers in a Neural Network](https://machinelearningmastery.com/how-to-configure-the-number-of-layers-and-nodes-in-a-neural-network/)
 * [Stack Exchange Discussion on Choosing Number of Nodes and Layers](https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw)
 * [List of Neural Network Topologies](https://towardsdatascience.com/the-mostly-complete-chart-of-neural-networks-explained-3fb6f2367464)
+* [Asimov Institute's "Neural Network Zoo", another great collection of different types of network architectures](https://www.asimovinstitute.org/neural-network-zoo/)
