@@ -28,11 +28,72 @@ For our introduction to GANs, we're headed back to the trusty MNIST dataset. We'
 * [Keras Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
 * [Github Discussion of Keras' Freeze and Compile Behavior](https://github.com/keras-team/keras/issues/8585)
 
+### Resources for Further Exploration
+
+* [A Beginners Guide to Generative Adversarial Networks](https://pathmind.com/wiki/generative-adversarial-network-gan)
+* [Review of GAN Architectures](https://sigmoidal.io/beginners-review-of-gan-architectures/)
+* [Alternative Neural Networks Exist: Variational Autoencoders vs GANs](https://syncedreview.com/2019/06/06/going-beyond-gan-new-deepmind-vae-model-generates-high-fidelity-human-faces/)
+
+## Part 2: Adding Color, Improving Training Stability, and Avoiding Common Problems
+
+
+### Pre-Reading
+
+* [Best Practices for GAN Architecture](https://machinelearningmastery.com/how-to-code-generative-adversarial-network-hacks/)
+
+
+### Helpful Documentation
 
 ### Resources for Further Exploration
 
-* [Best Practices for GAN Architecture](https://machinelearningmastery.com/how-to-code-generative-adversarial-network-hacks/)
 * [Adding Noise to Stabilize Training](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/)
+* [Improved Techniques for Training GANS (paper)](https://arxiv.org/abs/1606.03498)
+
+## Advanced GAN Resources: Style Transfer, Resolution Recovery, Photo In-Painting, Video, and More
+
+Since their invention, GANs were quickly adapted for use in tons interesting ways. "DeepFake" videos are one of the most well known applications of GANs, but the strategy is also proving to be useful in image editing, photo resolution recovery, photo reconstruction/inpainting, the creation of art, black-and-white photo colorization, and more.
+
+Implementing examples of everything GANs can do is beyond the scope of this class (and my personal ability!) but there are numerous wonderful resources available elsewhere. Here is a collection of fascinating and detailed articles, papers, code repos, and tools that the curious student can use to continue their exploration of GANs.
+
+### Collections of GAN Applications
+
+* [18 Impressive Applications of GANs](https://machinelearningmastery.com/impressive-applications-of-generative-adversarial-networks/)
 * [Collection of Powerful GAN Image Architectures](https://towardsdatascience.com/must-read-papers-on-gans-b665bbae3317)
-* [GPT-2 Writeup and Code](https://openai.com/blog/better-language-models/)
-* [StyleGAN2 Official implementation](https://github.com/NVlabs/stylegan2)
+* [GAN papers and implementations on Github](https://github.com/nashory/gans-awesome-applications)
+
+### Controlling The Generated Images / AI Assisted Photo Realistic Painting
+
+* [Guide to StyleGAN](https://machinelearningmastery.com/introduction-to-style-generative-adversarial-network-stylegan/)
+* [Another Guide to StyleGAN](https://towardsdatascience.com/explained-a-style-based-generator-architecture-for-gans-generating-and-tuning-realistic-6cb2be0f431)
+* [StyleGAN2 Official Implementation](https://github.com/NVlabs/stylegan2)
+* [NVIDIA's GauGAN Explained](https://adamdking.com/blog/gaugan/)
+* [A Gentle Introduction to BigGAN](https://machinelearningmastery.com/a-gentle-introduction-to-the-biggan/)
+* [Papers With Code: Class Conditional GANs](https://paperswithcode.com/task/conditional-image-generation)
+
+### Style Transfer
+
+* [Style Transfer Guide](https://www.fritz.ai/style-transfer/)
+* [Exploring Neural Style Transfer (paper)](http://cs231n.stanford.edu/reports/2017/pdfs/428.pdf)
+* [pix2pix (paper, code, demos)](https://phillipi.github.io/pix2pix/)
+* [CycleGAN (articles, papers, exercises and code)](https://junyanz.github.io/CycleGAN/)
+* [Fast Style Transfer (open source tool)](https://github.com/lengstrom/fast-style-transfer)
+
+### Resolution Recovery / Super Resolution
+
+* [An Introduction to Super Resolution](https://medium.com/beyondminds/an-introduction-to-super-resolution-using-deep-learning-f60aff9a499d)
+* [Image Super Resolution With Tensorflow](https://krasserm.github.io/2019/09/04/super-resolution/)
+* [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network (paper)](https://arxiv.org/abs/1609.04802)
+* [Deep Learning for Image Super Resolution, a Review (paper)](https://arxiv.org/pdf/1808.03344.pdf)
+
+### Photo Inpainting
+
+* [A Guide to Photo Inpainting With Deep Learning](https://heartbeat.fritz.ai/guide-to-image-inpainting-using-machine-learning-to-edit-and-correct-defects-in-photos-3c1b0e13bbd0)
+* [Comparing Inpainting Algorithms to Each Other and To Humans](https://towardsdatascience.com/image-inpainting-humans-vs-ai-48fc4bca7ecc)
+* [Papers With Code Collection: Inpainting](https://paperswithcode.com/task/image-inpainting)
+* [Context Encoders: Feature Learning by Inpainting (paper)](https://arxiv.org/abs/1604.07379)
+
+### Face Swapping / Deep Video Portraits / Deep Fakes
+
+* [Series on Deep Fakes Including AutoEncoders and GANs](https://www.alanzucconi.com/2018/03/14/introduction-to-deepfakes/)
+* [Accessible Face Swap GAN With Code & Google Colab Examples](https://github.com/shaoanlu/fewshot-face-translation-GAN)
+* [Deep Video Portraits (paper)](https://arxiv.org/pdf/1805.11714.pdf)
