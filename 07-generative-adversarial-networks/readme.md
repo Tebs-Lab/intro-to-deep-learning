@@ -12,6 +12,14 @@ One result of this setup is a complex training process. Because the two networks
 
 As a result, GANs are notoriously hard to train. In addition to improving architectural patterns and expanding those patterns into new domains (image, text, video, audio...), many of the advancements in GAN research are related to creating more successful training regimes.
 
+**By the end of this section students should be able to:**
+
+* Describe the components of a GAN, specifically the generator and discriminator networks.
+* Describe the "adversarial" relationship between the two networks.
+* Implement and train GANs that create passable images for both the CIFAR-10 and MNIST datasets.
+* Apply best practices to their GAN's training regimen.
+* Study state of the art GANs on their own.
+
 ## Part 1: GANs on MNIST
 
 For our introduction to GANs, we're headed back to the trusty MNIST dataset. We're using MNIST for a variety of reasons. One major one is that GANs are complex and expensive to train so a simple dataset has advantages for all of us using commodity hardware. The small images, a single color channel, and a comparatively simple task allow us explore basic GAN architectures without getting lost in the complexities of state-of-the-art models.
@@ -34,20 +42,24 @@ For our introduction to GANs, we're headed back to the trusty MNIST dataset. We'
 * [Review of GAN Architectures](https://sigmoidal.io/beginners-review-of-gan-architectures/)
 * [Alternative Neural Networks Exist: Variational Autoencoders vs GANs](https://syncedreview.com/2019/06/06/going-beyond-gan-new-deepmind-vae-model-generates-high-fidelity-human-faces/)
 
-## Part 2: Adding Color, Improving Training Stability, and Avoiding Common Problems
+## Part 2: Adding Color, Improving Training Stability, and Other Best Practices
 
+GANs have earned a reputation for being hard to train. In the early days of GAN research (2014) very little was known about how and why exactly GANs worked, and therefore how to train them. Like many areas in Deep Learning,  GAN research was advanced more from empirical research than through theoretical breakthroughs. In many ways, the theory still lags behind the empirical research. Nevertheless, over the last few years some best practices have been established to greatly improve training stability and overall GAN performance.
 
 ### Pre-Reading
 
 * [Best Practices for GAN Architecture](https://machinelearningmastery.com/how-to-code-generative-adversarial-network-hacks/)
-
+* [Tips for Training Stable GANs](https://machinelearningmastery.com/how-to-train-stable-generative-adversarial-networks/)
 
 ### Helpful Documentation
+
+* [Keras Embedding Layer](https://keras.io/layers/embeddings/)
 
 ### Resources for Further Exploration
 
 * [Adding Noise to Stabilize Training](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/)
 * [Improved Techniques for Training GANS (paper)](https://arxiv.org/abs/1606.03498)
+* [Embedding Layers Explained](https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526)
 
 ## Advanced GAN Resources: Style Transfer, Resolution Recovery, Photo In-Painting, Video, and More
 

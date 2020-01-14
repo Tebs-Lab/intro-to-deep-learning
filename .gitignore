@@ -17,6 +17,8 @@ scratchpad.md
 05-reinforcement-learning/gym-videos/
 06-deep-reinforcement-learning/gym-videos/
 
+07-generative-adversarial-networks/saved_models
+
 # Created by https://www.gitignore.io/api/python,jupyternotebook
 # Edit at https://www.gitignore.io/?templates=python,jupyternotebook
 
