@@ -48,8 +48,8 @@ GANs have earned a reputation for being hard to train. In the early days of GAN 
 
 ### Pre-Reading
 
-* [Best Practices for GAN Architecture](https://machinelearningmastery.com/how-to-code-generative-adversarial-network-hacks/)
-* [Tips for Training Stable GANs](https://machinelearningmastery.com/how-to-train-stable-generative-adversarial-networks/)
+* [How to Develop a GAN for CIFAR10](https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-a-cifar-10-small-object-photographs-from-scratch/)
+* [How to Develop a Conditional GAN](https://machinelearningmastery.com/how-to-develop-a-conditional-generative-adversarial-network-from-scratch/)
 
 ### Helpful Documentation
 
@@ -60,6 +60,9 @@ GANs have earned a reputation for being hard to train. In the early days of GAN 
 * [Adding Noise to Stabilize Training](https://www.inference.vc/instance-noise-a-trick-for-stabilising-gan-training/)
 * [Improved Techniques for Training GANS (paper)](https://arxiv.org/abs/1606.03498)
 * [Embedding Layers Explained](https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526)
+* [Best Practices for GAN Architecture](https://machinelearningmastery.com/how-to-code-generative-adversarial-network-hacks/)
+* [Tips for Training Stable GANs](https://machinelearningmastery.com/how-to-train-stable-generative-adversarial-networks/)
+
 
 ## Advanced GAN Resources: Style Transfer, Resolution Recovery, Photo In-Painting, Video, and More
 
