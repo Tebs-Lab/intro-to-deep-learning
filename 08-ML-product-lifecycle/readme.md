@@ -36,30 +36,46 @@ As you can see, there is quite a lot that goes into successfully taking a succes
 
 ## Part 1: The Machine Learning Lifecycle
 
+In this section we'll discuss the ML product lifecycle, which is in short:
+
+* Define the problem.
+* Collect the relevant data.
+* Build and evaluate some models.
+* Deploy one or more of those models.
+* Monitor the model's performance and repeat prior steps as necessary.
+
+Then, we'll pose several realistic examples of ML systems and describe what
+
 ### Suggested Pre-Reading
 
-* [The Machine Learning Lifecyce (video)](https://www.youtube.com/watch?v=ZmBUnJ7lGvQ)
+* [The Machine Learning Lifecycle (video)](https://www.youtube.com/watch?v=ZmBUnJ7lGvQ)
 * [DataRobot, The Machine Learning Lifecycle](https://www.datarobot.com/wiki/machine-learning-life-cycle/)
 
 ### Resources for Further Exploration
 
+* [Continuous Delivery for ML (long, detailed, and great)](https://martinfowler.com/articles/cd4ml.html)
+* [How To Deploy ML Models](https://christophergs.github.io/machine%20learning/2019/03/17/how-to-deploy-machine-learning-models/)
+* [How To Version Control ML Models](https://algorithmia.com/blog/how-to-version-control-your-production-machine-learning-models)
+* [Version Control ML Models](https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c)
 * [Google ML Crash Course: Production Systems](https://developers.google.com/machine-learning/crash-course/production-ml-systems)
-* [Another collection of resources for lots of specific languages/frameworks/infrastructure](https://github.com/ahkarami/Deep-Learning-in-Production)
-* [An Overview of ML Deployment Approaches](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
 
 ## Part 2: Creating and Training Models With Production in Mind
 
+In this section we'll look at a few tools that Keras provides that can make our transition to production easier. We'll mostly think about these factors in a model's lifecycle:
 
-
-### Suggested Pre-Reading
-
-* [The Machine Learning Lifecyce (video)](https://www.youtube.com/watch?v=ZmBUnJ7lGvQ)
-* [DataRobot, The Machine Learning Lifecycle](https://www.datarobot.com/wiki/machine-learning-life-cycle/)
+* We generally want to separate training from deployment.
+* We want to version our models and either:
+  * Update them periodically (offline/batched)
+  * Update them continuously (online)
+    * (but it's still a good idea to keep snapshots/checkpoints!)
+* We want to be able to monitor performance in real time.
+  * We especially want to know if our model starts failing badly.
 
 ### Helpful Documentation
 
+* [Keras save and restore](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model)
+* [Keras metrics](https://keras.io/metrics/)
+
 ### Resources for Further Exploration
 
-* [Google ML Crash Course: Production Systems](https://developers.google.com/machine-learning/crash-course/production-ml-systems)
-* [Another collection of resources for lots of specific languages/frameworks/infrastructure](https://github.com/ahkarami/Deep-Learning-in-Production)
-* [An Overview of ML Deployment Approaches](https://www.kdnuggets.com/2019/06/approaches-deploying-machine-learning-production.html)
+* [A collection of resources for lots of specific languages/frameworks/infrastructure](https://github.com/ahkarami/Deep-Learning-in-Production)
