@@ -73,9 +73,14 @@ In this section we'll look at a few tools that Keras provides that can make our 
 
 ### Helpful Documentation
 
+* [Tensorflow/Keras Save/Restore guide](https://www.tensorflow.org/guide/keras/save_and_serialize)
 * [Keras save and restore](https://keras.io/getting-started/faq/#how-can-i-save-a-keras-model)
 * [Keras metrics](https://keras.io/metrics/)
+* [Keras callbacks](https://keras.io/callbacks/)
+* [Keras guide to custom callbacks](https://www.tensorflow.org/guide/keras/custom_callback)
+
 
 ### Resources for Further Exploration
 
+* [Using Checkpoints in Keras](https://machinelearningmastery.com/check-point-deep-learning-models-keras/)
 * [A collection of resources for lots of specific languages/frameworks/infrastructure](https://github.com/ahkarami/Deep-Learning-in-Production)
