@@ -114,6 +114,7 @@ Segmentation requires even more output data. In fact, for segmentation the outpu
 * [Transposed Convolutions](https://medium.com/apache-mxnet/transposed-convolutions-explained-with-ms-excel-52d13030c7e8)
 * [Gentle Introduction to YOLO Object Detection Part 1](https://hackernoon.com/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-1-aec99277f56f)
 * [Gentle Introduction to YOLO Part 2](https://heartbeat.fritz.ai/gentle-guide-on-how-yolo-object-localization-works-with-keras-part-2-65fe59ac12d)
+* [Detailed guide to YOLO Net](https://hackernoon.com/understanding-yolo-f5a74bbc7967)
 * [Segmentation implementations in Keras]( https://github.com/divamgupta/image-segmentation-keras)
 * [Kaggle Ultrasound Nerve Segmentation Dataset & Challenge](https://www.kaggle.com/c/ultrasound-nerve-segmentation/discussion/21358)
 * [A Non-Experts Guide to Segmentation With Keras](https://medium.com/@hanrelan/a-non-experts-guide-to-image-segmentation-using-deep-neural-nets-dda5022f6282)
