@@ -25,7 +25,7 @@ sklearn = "*"
 seaborn = "*"
 pillow = "*"
 opencv-python = "*"
-bleach = ">=3.1.2"
+bleach = ">=3.1.4"
 
 [requires]
 python_version = "3.7"
