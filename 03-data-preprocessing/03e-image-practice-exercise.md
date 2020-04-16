@@ -30,7 +30,9 @@ In step two make sure that you:
 
 Then, consider these questions:
 
-* Can you think of a situation or dataset where image rotation might be innappropriate?
+* Can you think of a situation or dataset where image rotation might be innappropriate, or damage the models performance?
+    * What about flipping?
+    * Skewing?
 * What advantages and disadvantages might the different values for `fill_mode` provide?
 * Can you think of a situation where *any* data augmentation might be innappropriate?
-* What is the advantage, if any, of data normalization on image data?
+* What could the advantages and disadvantages of data normalization and scaling on image data? e.g. normalizing from (0,255) into (0, 1) or (-1, 1)
