@@ -21,17 +21,13 @@ Finally, this is not an exam. Correct answers are not provided. In fact, the exe
 
 ## The Exercise
 
-In this exercise you'll make a subtle, but important change to the structure of the segmentation model provided in the segmentation Jupyter Notebook. In that notebook we created a model that was trained against two output feature maps, one for cat pixels and one for dog pixels. The result is a network that, in a sense, makes two separate predictions: one prediction for where cat pixels are and a separate prediction for where dog pixels are.
-
-An undesirable outcome of this design is that for any given pixel, our model is allowed to predict that it belongs to both a cat AND a dog. Another problem is that our model does not make any explicit predictions about which pixels belong to the background. Background perditions are only implicit: a pixel that was not activated in either the cat or dog feature-map can be considered a background pixel.
-
-In this exercise you'll fix this problem! Your model in this exercise will assign each pixel to one of threw possible classes. In this case that means each pixel will belong to one of three classes: cat, dog, or background. This change is a significant improvement on the old design because it more easily allows segmentation of photos that might contain several different classes.
+In this exercise you'll implement a neural network to perform segmentation on the Oxford Pets dataset (or another dataset, if you prefer...). The provided notebook is an acceptable solution, but perhaps you can do better by building a model from scratch, starting from an alternative model, or importing a model designed to perform segmentation such as UNet. 
 
 ### Step 1: Download and prepare the data
 
 The Oxford Pets dataset can be found here: [http://www.robots.ox.ac.uk/~vgg/data/pets/](http://www.robots.ox.ac.uk/~vgg/data/pets/)
 
-Download the dataset and the groundtruth data. Then, read and process the images and their matching trimap masks. You can leverage the code from the Jupyter notebook extensively to do this.
+Download the dataset and the ground truth data. Then, read and process the images and their matching trimap masks. You can leverage the code from the Jupyter notebook extensively to do this.
 
 During this process you will have to change the way training data is prepared from the trimaps from what is in the notebook. Specifically, you should create three output feature maps (one for each: dog, cat and background) instead of two (one for dog, one for cat). The feature maps for the "dog" and "cat" layer will be identical to the ones in the notebook, and all three will still only contain values of 0 or 1, where zero indicates "this pixel is not a member of this feature-map's class" and one indicates "this pixel is a member of this feature-map's class". The new feature-map will contain 1's for pixels that are a part of the background, and 0's for pixels that are NOT a part of the background.
 
