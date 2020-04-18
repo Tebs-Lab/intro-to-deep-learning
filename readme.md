@@ -37,6 +37,8 @@ A new tab should open in your web browser allowing you to navigate the Jupyter N
 
 #### Note: Dev Dependencies for Reinforcement Learning Sections
 
+> Current release does not have RL labs up to date with TensorFlow 2, and I have been made aware there are additional difficulties installing box2d on OSX after Catalina... We're working on it.
+
 The Deep Reinforcement Learning sections require additional dependencies that are, in many cases, not as simple to install. These dependencies are listed as dev-packages in the `Pipfile`, and as such are **not** installed by default. These packages, specifically the code that allows OpenAI's `gym` package to run Atari games, cannot all be installed using `pip` or `pipenv` alone. To run the code in sections 5 & 6, you will need to do the following:
 
 Install `box2d` and `ffmpeg` using something other than `pip`:

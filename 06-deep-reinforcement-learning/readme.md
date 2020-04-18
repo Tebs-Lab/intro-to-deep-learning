@@ -2,6 +2,8 @@
 
 ## Important Dependencies Note:
 
+> Current release does not have RL labs up to date with TensorFlow 2, and I have been made aware there are additional difficulties installing box2d on OSX after Catalina... We're working on it.
+
 To run the code in this section, additional dependencies are required. See the [main readme](/readme.md) for installation instructions under the heading "Note: Dev Dependencies for Reinforcement Learning Sections"
 
 ## Deep Reinforcement Learning:
