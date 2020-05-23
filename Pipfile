@@ -25,6 +25,13 @@ pillow = "*"
 opencv-python = "*"
 bleach = ">=3.1.4"
 keras = "*"
+tibble = "*"
+tidyr = "*"
+readr = "*"
+purrr = "*"
+dplyr = "*"
+stringr = "*"
+forcats = "*"
 
 [requires]
 python_version = "3.7"
