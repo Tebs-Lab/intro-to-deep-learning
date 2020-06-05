@@ -4,6 +4,8 @@ Welcome to the Teb's Lab introduction to deep learning curriculum. These materia
 
 These resources are primarily targeting people who are getting started with machine learning, and they not a comprehensive study of deep learning. Since the field seems to evolve every few minutes, some of the information here might be outdated by the time you arrive. With that in mind, these materials put a focus on the foundational information that can serve as a jumping off point for future study.
 
+Each folder represents a larger sub-topic within the field of deep learning. Within each folder you'll find a readme and a series of Jupyter Notebooks. Each readme contains a brief overview of the topic and describes the sub-topics. Each sub-topic has pre-reading suggestions, a Jupyter Notebook that demonstrates how to put the concepts in the pre-reading into practice, documentation related to the techniques and tools used in the notebook, and suggested resources for further exploration of the sub-topic.
+
 While the notebooks strive to adequately describe their topics, they all have conspicuous imperfections. Students using these materials are strongly encouraged to not just read the notebooks, but change and expand them in order to improve the performance of the models therein. Doing so will significantly improve your understanding of the topics presented.
 
 Some subdomains are conspicuously missing, such as Generative Adversarial Networks (GAN) and Natural Language Processing (NLP). These topics may be added at a later date. However, it is our hope that the information in these notebooks is sufficient that students who work through it will be able to explore these more advanced topics on their own.
