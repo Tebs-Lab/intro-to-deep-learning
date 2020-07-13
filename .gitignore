@@ -157,3 +157,6 @@ dmypy.json
 .pyre/
 
 # End of https://www.gitignore.io/api/python,jupyternotebook
+04-convolutional-neural-networks/flowers/daisy/11023277956_8980d53169_m.jpg
+04-convolutional-neural-networks/flowers/daisy/11023272144_fce94401f2_m.jpg
+*.jpg
