@@ -21,6 +21,7 @@ See the above!
 
 * [Image Processing With Kernals](http://setosa.io/ev/image-kernels/)
 * [The Math of Convolutional Networks](https://towardsdatascience.com/gentle-dive-into-math-behind-convolutional-neural-networks-79a07dd44cf9)
+* [Global Average Pooling](https://alexisbcook.github.io/2017/global-average-pooling-layers-for-object-localization/)
 
 ### Resources for Further Exploration
 
