@@ -62,6 +62,7 @@ GANs have earned a reputation for being hard to train. In the early days of GAN 
 * [Embedding Layers Explained](https://towardsdatascience.com/neural-network-embeddings-explained-4d028e6f0526)
 * [Best Practices for GAN Architecture](https://machinelearningmastery.com/how-to-code-generative-adversarial-network-hacks/)
 * [Tips for Training Stable GANs](https://machinelearningmastery.com/how-to-train-stable-generative-adversarial-networks/)
+* [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 
 
 ## Advanced GAN Resources: Style Transfer, Resolution Recovery, Photo In-Painting, Video, and More
