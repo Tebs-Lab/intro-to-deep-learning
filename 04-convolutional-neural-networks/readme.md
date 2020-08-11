@@ -41,6 +41,7 @@ Just like with artificial neural networks, the theory is great but it's more fun
 
 * [Keras Datasets](https://keras.io/datasets/)
 * [Keras Convolutional layers](https://keras.io/layers/convolutional/)
+* [TF2 Spatial Dropout](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SpatialDropout2D)
 * [NumPy Reshape](https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html)
 * [An example of a CNN architecture with 95%+ accuracy on Fashion MNIST](https://github.com/cmasch/zalando-fashion-mnist)
 * [SciKit Learn's Confusuion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
@@ -55,6 +56,7 @@ Just like with artificial neural networks, the theory is great but it's more fun
 * [Gradient Activated Heat Maps paper](https://arxiv.org/abs/1610.02391)
   * [Somewhat More Approachable GRAD-CAM Writeup](https://jacobgil.github.io/deeplearning/class-activation-maps)
 * [Visualizing Internal Convolutional Layers](https://machinelearningmastery.com/how-to-visualize-filters-and-feature-maps-in-convolutional-neural-networks/)
+* [**Designing Network Design Spaces (very useful on how to approach network design)**](https://openaccess.thecvf.com/content_CVPR_2020/papers/Radosavovic_Designing_Network_Design_Spaces_CVPR_2020_paper.pdf)
 
 ## Part 3: Transfer Learning
 
