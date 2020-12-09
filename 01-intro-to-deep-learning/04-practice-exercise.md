@@ -70,3 +70,20 @@ Build a network with at least 3 hidden layers that achieves better than 92% accu
 * Compare your best results to the result you got in part one:
   * Which network achieved the best accuracy on test data after training?
   * Did the networks train for a similar number of epochs?
+
+## Bonus Questions, Challenge Yourself
+
+* Do any of your models fail more often on a particular digit? 
+  * Write some code that charts the accuracy of our model's predictions on the test data by digit.
+    * *Hint: Consider searching for "confusion matrix python tensorflow"*
+  * Is there a clear pattern? If so, speculate about why that could be...
+* Training for longer typically improves performance, up to a point.
+  * For a simple model, try training it for 20 epochs, and 50 epochs.
+  * Look at the charts of accuracy and loss over time, have you reached diminishing returns after 20 epochs? after 50?
+* More complex networks require more training time, but can outperform simpler networks.
+  * Build a more complex model, with at least 3 hidden layers.
+  * Like before, train it for 5, 20, and 50 epochs. 
+  * Evaluate the performance of the model against the simple model, and compare the total amount of time it took to train.
+  * Was the extra complexity worth the additional training time? 
+  * Do you think your complex model would get even better with more time?
+* A little perspective on this last point: Some models train for [__weeks to months__](https://openai.com/blog/ai-and-compute/).  
