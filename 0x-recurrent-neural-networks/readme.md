@@ -3,6 +3,7 @@
 * [Stanford Lecture RNNs in Computer Vision](https://www.youtube.com/watch?v=6niqTuYFZLQ)
     * [Companion written piece from the same lab](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [Simple illustrated intro to RNNs](https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9)
+* [SO question clearly explaining Embedding layers vs Dense layers](https://stackoverflow.com/questions/47868265/what-is-the-difference-between-an-embedding-layer-and-a-dense-layer)
 
 ## Promising but have not read
 
@@ -10,11 +11,16 @@
 * [Word Embeddings TF Docs](https://www.tensorflow.org/tutorials/text/word_embeddings)
 * [Build RNN TF Docs](https://www.tensorflow.org/guide/keras/rnn#rnn_state_reuse)
 * [Sentiment analysis w/ TF2](https://curiousily.com/posts/sentiment-analysis-with-tensorflow-2-and-keras-using-python/)
+* [Understanding LSTM](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [What are embeddings](https://developers.google.com/machine-learning/crash-course/embeddings/video-lecture)
 
 ## Further resources
 
 * [Very Explicit Guide to RNN/GRU/LSTM, code from scratch](https://datascience-enthusiast.com/DL/Building_a_Recurrent_Neural_Network-Step_by_Step_v1.html)
 * [Transformers are replacing RNN in some cases](https://www.youtube.com/watch?v=S27pHKBEp30)
+* [More kinds of Embeddings in TF](https://www.tensorflow.org/tutorials/text/word_embeddings)
+    * Sometimes we train on our data, and sometimes we use a pre-trained embedder (e.g. Word2Vec)
+* [understanding the hidden memories of RNNs](https://blog.acolyer.org/2019/02/25/understanding-hidden-memories-of-recurrent-neural-networks/)
 
 ## Proposed Topic Order:
 
