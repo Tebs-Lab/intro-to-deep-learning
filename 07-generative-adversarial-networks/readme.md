@@ -26,15 +26,8 @@ For our introduction to GANs, we're headed back to the trusty MNIST dataset. We'
 
 ### Pre-Reading
 
-* [GAN for MNIST in Keras](https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-an-mnist-handwritten-digits-from-scratch-in-keras/)
-* [Alternate GAN for MNIST in Keras](https://www.wouterbulten.nl/blog/tech/getting-started-with-generative-adversarial-networks/)
-
-### Helpful Documentation
-
-* [Keras Convolutional Layers](https://keras.io/layers/convolutional/)
-* [Keras Optimizers](https://keras.io/optimizers/)
-* [Keras Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
-* [Github Discussion of Keras' Freeze and Compile Behavior](https://github.com/keras-team/keras/issues/8585)
+* [GAN for MNIST in TF/Keras](https://machinelearningmastery.com/how-to-develop-a-generative-adversarial-network-for-an-mnist-handwritten-digits-from-scratch-in-keras/)
+* [Alternate GAN for MNIST in TF/Keras](https://www.wouterbulten.nl/blog/tech/getting-started-with-generative-adversarial-networks/)
 
 ### Resources for Further Exploration
 
@@ -53,7 +46,7 @@ GANs have earned a reputation for being hard to train. In the early days of GAN 
 
 ### Helpful Documentation
 
-* [Keras Embedding Layer](https://keras.io/layers/embeddings/)
+* [TF/Keras Embedding Layer](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Embedding)
 
 ### Resources for Further Exploration
 

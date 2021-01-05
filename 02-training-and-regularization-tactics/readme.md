@@ -26,8 +26,7 @@ Every node in a neural network has an activation function. The primary purpose o
 
 ### Helpful documentation
 
-* [Keras Activations](https://keras.io/activations/)
-* [Keras Advanced Activations](https://keras.io/layers/advanced-activations/)
+* [TF/Keras Activations](https://www.tensorflow.org/api_docs/python/tf/keras/activations)
 * [ML Cheatsheet: Activation Functions](https://ml-cheatsheet.readthedocs.io/en/latest/activation_functions.html)
 
 ### Resources For Further Exploration
@@ -49,7 +48,7 @@ Loss functions are the way we quantify our network's error, and therefore how we
 
 ### Helpful Documentation
 
-* [Keras Built In Loss Functions](https://keras.io/losses/)
+* [TF/Keras Built In Loss Functions](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
 * [ML Cheatsheet: Loss functions](https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html)
 
 ### Resources for Further Exploration
@@ -57,7 +56,7 @@ Loss functions are the way we quantify our network's error, and therefore how we
 * [5 Regression Loss Functions All Machine Learners Should Know](https://heartbeat.fritz.ai/5-regression-loss-functions-all-machine-learners-should-know-4fb140e9d4b0)
 * [How to Choose a Loss Function](https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/)
 * [Picking Loss Functions](https://rohanvarma.me/Loss-Functions/)
-* [Building a Complex Custom Loss Function in Keras](https://towardsdatascience.com/advanced-keras-constructing-complex-custom-losses-and-metrics-c07ca130a618)
+* [Building a Complex Custom Loss Function in TF/Keras](https://www.tensorflow.org/guide/keras/train_and_evaluate#custom_losses)
 
 
 ## Part 3: Optimizers
@@ -90,8 +89,8 @@ Regularization is a key aspect of any kind of statistical modeling. In general i
 
 ### Helpful Documentation
 
-* [Keras Docs, Dropout](https://keras.io/layers/core/#dropout)
-* [Keras Docs, Early Stopping](https://keras.io/callbacks/#earlystopping)
+* [TF/Keras Docs, Dropout](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout)
+* [TF/Keras Docs, Early Stopping](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping)
 
 ### Resources For Further Exploration
 

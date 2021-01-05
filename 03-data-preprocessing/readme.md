@@ -95,12 +95,14 @@ Image augmentation is a powerful way to turn a small data set into a larger one,
 
 ### Helpful Documentation
 
-* [Keras: Image Preprocessing](https://keras.io/preprocessing/image/)
+* [TF/Keras: Image Preprocessing](https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/image)
+* [TF Core: Image Preprocessing](https://www.tensorflow.org/api_docs/python/tf/image)
 * [PIL Image Module](https://pillow.readthedocs.io/en/stable/reference/Image.html)
 * [PIL ImageOps Module](https://pillow.readthedocs.io/en/stable/reference/ImageOps.html)
 
 ### Resources for Further Exploration
 
 * [Image Augmentation for Deep Learning With Keras](https://machinelearningmastery.com/image-augmentation-deep-learning-keras/)
+  * Tensorflow added this same interface, so everything here works but the imports change slightly (`from tensorflow.keras` instead of `from keras`)
 * [Paper: The Effectiveness of Data Augmentation in Image Classification using Deep Learning](http://cs231n.stanford.edu/reports/2017/pdfs/300.pdf)
 * [Preprocessing for deep learning: from covariance matrix to image whitening](https://medium.freecodecamp.org/https-medium-com-hadrienj-preprocessing-for-deep-learning-9e2b9c75165c)

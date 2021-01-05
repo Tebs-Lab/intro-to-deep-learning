@@ -8,8 +8,8 @@ By adding ideas from image processing to neural networks, especially the idea of
 
 * Define convolutional neural networks and their critical components.
 * Describe why CNN's are such a good fit for computer vision tasks.
-* Build convolutional neural networks using Keras.
-* Describe the concept of Transfer Learning and apply it to CNNs using Keras.
+* Build convolutional neural networks using Tensorflow.
+* Describe the concept of Transfer Learning and apply it to CNNs using Tensorflow.
 * Contrast classification and segmentation.
 * Apply CNNs to perform classification, localization, and segmentation.
 
@@ -39,9 +39,9 @@ Just like with artificial neural networks, the theory is great but it's more fun
 
 ### Helpful Documentation
 
-* [Keras Datasets](https://keras.io/datasets/)
-* [Keras Convolutional layers](https://keras.io/layers/convolutional/)
-* [TF2 Spatial Dropout](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SpatialDropout2D)
+* [TF/Keras Datasets](https://www.tensorflow.org/api_docs/python/tf/keras/datasets)
+* [TF/Keras Conv2D layer](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D)
+* [TF Spatial Dropout](https://www.tensorflow.org/api_docs/python/tf/keras/layers/SpatialDropout2D)
 * [NumPy Reshape](https://docs.scipy.org/doc/numpy/reference/generated/numpy.reshape.html)
 * [An example of a CNN architecture with 95%+ accuracy on Fashion MNIST](https://github.com/cmasch/zalando-fashion-mnist)
 * [SciKit Learn's Confusuion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
@@ -60,7 +60,7 @@ Just like with artificial neural networks, the theory is great but it's more fun
 
 ## Part 3: Transfer Learning
 
-Transfer learning is a tactic that allows us to take a pre-trained neural network, and apply it to a new task. Transfer learning is especially popular with CNNs because a lot of images share the same useful features, which means the "lessons" learned by a CNN for one task can be immediately applied to another task. In this section we'll look at two different styles of transfer learning, feature extraction and fine-tuning, and apply them using Keras.
+Transfer learning is a tactic that allows us to take a pre-trained neural network, and apply it to a new task. Transfer learning is especially popular with CNNs because a lot of images share the same useful features, which means the "lessons" learned by a CNN for one task can be immediately applied to another task. In this section we'll look at two different styles of transfer learning, feature extraction and fine-tuning, and apply them using Tensorflow.
 
 ### Pre-Reading
 
@@ -68,9 +68,10 @@ Transfer learning is a tactic that allows us to take a pre-trained neural networ
 
 ### Helpful Documentation
 
-* [Keras Models](https://keras.io/models/model/)
+* [TF/Keras Models](https://www.tensorflow.org/api_docs/python/tf/keras/Model)
 * [scipy zoom](http://scipy.github.io/devdocs/generated/scipy.ndimage.zoom.html#scipy.ndimage.zoom)
-* [Keras Pre-built Models](https://keras.io/applications/)
+* [TF/Keras Pre-built Models](https://www.tensorflow.org/api_docs/python/tf/keras/applications)
+  * There are tons and these are updated regularly, check it out!
 * [ImageNet Documentation](http://image-net.org/about-overview)
 * [ImageNet classifications dictionary](https://gist.github.com/yrevar/942d3a0ac09ec9e5eb3a)
 * [Image transform using PIL](https://jdhao.github.io/2017/11/06/resize-image-to-square-with-padding/)
@@ -104,10 +105,10 @@ Segmentation requires even more output data. In fact, for segmentation the outpu
 
 ### Helpful Documentation
 
-* [Keras Losses](https://keras.io/losses/)
-* [Keras Backends](https://keras.io/backend/)
-* [Keras Functional API](https://keras.io/getting-started/functional-api-guide/)
-* [Keras Conv2DTranspose](https://keras.io/layers/convolutional/#conv2dtranspose)
+* [TF/Keras Losses](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
+* [TF/Keras Backend](https://www.tensorflow.org/api_docs/python/tf/keras/backend)
+* [TF/Keras Functional API](https://www.tensorflow.org/guide/keras/functional)
+* [TF/Keras Conv2DTranspose](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2DTranspose)
 
 ### Resources for Further Exploration
 
@@ -123,5 +124,5 @@ Segmentation requires even more output data. In fact, for segmentation the outpu
 * [A Non-Experts Guide to Segmentation With Keras](https://medium.com/@hanrelan/a-non-experts-guide-to-image-segmentation-using-deep-neural-nets-dda5022f6282)
 * [Microsoft Developer Blog about U-Net For Segmentation](https://www.microsoft.com/developerblog/2018/07/18/semantic-segmentation-small-data-using-keras-azure-deep-learning-virtual-machine/)
 * [Paper: U-Net](https://arxiv.org/abs/1505.04597)
-* [Open Source Keras Implementation of U-Net](https://github.com/zhixuhao/unet)
+* [Open Source Implementation of U-Net](https://github.com/zhixuhao/unet)
 * [Some Object Localization Experiments on Github w/ Pet Dataset](https://github.com/lars76/object-localization)

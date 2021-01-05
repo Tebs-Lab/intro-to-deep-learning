@@ -1,23 +1,23 @@
-# Exercise: Neural Network Basics in Keras
+# Exercise: Neural Network Basics in Tensorflow
 
-If you've worked through the three notebooks you should be somewhat familiar with the basics of neural networks, and how they are built using Keras. Now, you should solidify your understanding of these concepts by building and training some networks of your own.
+If you've worked through the three notebooks you should be somewhat familiar with the basics of neural networks, and how they are built using Tensorflow. Now, you should solidify your understanding of these concepts by building and training some networks of your own.
 
 ## Exercise Goals
 
 This exercise is meant to help you:
 
-* Gain familiarity with the syntax and function of the Keras library.
-* Gain familiarity with the Keras documentation.
+* Gain familiarity with the syntax and function of the Tensorflow library.
+* Gain familiarity with the Tensorflow documentation.
 * Practice using neural network terminology.
-* Practice building, training, evaluating models with Keras.
-* Create mental connections between deep learning theory and Keras code.
+* Practice building, training, evaluating models with Tensorflow.
+* Create mental connections between deep learning theory and Tensorflow code.
 * Compare the performance of different neural networks.
 
 ## Exercise Notes
 
-You may wish to use Jupyter notebooks to complete this exercise or you might prefer to write Python code and run it via the terminal, use an IDE like PyCharm, or some other technology stack. Feel free to use any technology stack and workflow you are comfortable with. Our goal is to provide an exercise that helps you learn solidify Deep Learning concepts and the details of the Keras framework—not to enforce a specific workflow, tool, or strategy for executing Python code.
+You may wish to use Jupyter notebooks to complete this exercise or you might prefer to write Python code and run it via the terminal, use an IDE like PyCharm, or some other technology stack. Feel free to use any technology stack and workflow you are comfortable with. Our goal is to provide an exercise that helps you learn solidify Deep Learning concepts and the details of the Tensorflow framework—not to enforce a specific workflow, tool, or strategy for executing Python code.
 
-This exercise should take between 30 minutes and 1 hour to complete. The provided Jupyter notebooks contain much of the information you need to complete this exercise. However, you should also expect to look up information from the Keras docs, the provided external reading material, and other sources. You are encouraged to search for information on your own.
+This exercise should take between 30 minutes and 1 hour to complete. The provided Jupyter notebooks contain much of the information you need to complete this exercise. However, you should also expect to look up information from the Tensorflow docs, the provided external reading material, and other sources. You are encouraged to search for information on your own.
 
 Finally, this is not an exam. Correct answers are not provided. In fact, the exercise has enough ambiguity that many different answers will qualify as correct. You should be able to prove the correctness of your own answers using readily available tools—and in so doing you'll have learned quite a lot.
 
@@ -34,7 +34,7 @@ You will build a few neural networks during this exercise, for all the networks 
 
 ### Part One:
 
-Use Keras to build a network with a single hidden layer and at least 300,000 trainable parameters. Answer the following questions about this model:
+Use Tensorflow to build a network with a single hidden layer and at least 300,000 trainable parameters. Answer the following questions about this model:
 
 * How many total trainable parameters does this model have?
   * How many weights?
@@ -44,11 +44,11 @@ Use Keras to build a network with a single hidden layer and at least 300,000 tra
   * How different was the model's performance on the test data?
 * About how long did each epoch take?
 
-Use Keras to build a network with a single hidden layer at fewer than 50,000 trainable parameters, then answer the same questions.
+Use Tensorflow to build a network with a single hidden layer at fewer than 50,000 trainable parameters, then answer the same questions.
 
 ### Part Two:
 
-Use Keras to build 3 networks, each with at least 10 hidden layers such that:
+Use Tensorflow to build 3 networks, each with at least 10 hidden layers such that:
 
 * The first model has fewer than 10 nodes per layer.
 * The second model has between 10-50 nodes per layer.

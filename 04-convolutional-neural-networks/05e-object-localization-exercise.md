@@ -8,8 +8,7 @@ This exercise is meant to help you:
 
 * Read and prepare the Oxford pets dataset for processing with a Neural Network
 * Implement a convolutional neural network that performs object localization.
-* Implement a CNN that provides two predictions (classification and localization) by using the Keras [functional API](https://keras.io/getting-started/functional-api-guide/).
-* Use a custom loss function in Keras.
+* Implement a CNN that provides two predictions (classification and localization) by using the [Tensorflow functional API](https://www.tensorflow.org/guide/keras/functional).
 
 ## Exercise Notes
 
@@ -17,13 +16,13 @@ You may wish to use Jupyter notebooks to complete this exercise or you might pre
 
 This exercise should take about 1 hour of actual work, but the training time for these models can be significant. You may wish to run training sessions overnight, during your lunch break, or just plan on leaving your computer while training your networks.
 
-The provided Jupyter notebooks contain much of the information you need to complete this exercise. However, you should also expect to look up information from the Keras docs, the provided external reading material, and other sources. You are encouraged to search for information on your own.
+The provided Jupyter notebooks contain much of the information you need to complete this exercise. However, you should also expect to look up information from the Tensorflow docs, the provided external reading material, and other sources. You are encouraged to search for information on your own.
 
 Finally, this is not an exam. Correct answers are not provided. In fact, the exercise has enough ambiguity that many different answers will qualify as correct. You should be able to prove the correctness of your own answers using readily available tools—and in so doing you'll have learned quite a lot.
 
 ## The Exercise
 
-Your goal is to build and train a neural network that performs single object localization using the Keras framework and the Oxford Pets dataset. You can leverage much of the code from the Object Localization Jupyter notebook, and you'll have to add and modify some code as well.
+Your goal is to build and train a neural network that performs single object localization using the Tensorflow framework and the Oxford Pets dataset. You can leverage much of the code from the Object Localization Jupyter notebook, and you'll have to add and modify some code as well.
 
 ### Part 1: Download the data
 
@@ -31,7 +30,7 @@ You can download the images and annotations for the Oxford Pets dataset from thi
 
 ### Part 2: Parse and prepare the data
 
-The dataset is described extensively on the website, as well as the Object Localization notebook in this same folder. Additionally, the notebook contains Python code that parses the raw data into a format that is ready for Keras to process. For each image you should:
+The dataset is described extensively on the website, as well as the Object Localization notebook in this same folder. Additionally, the notebook contains Python code that parses the raw data into a format that is ready for Tensorflow to process. For each image you should:
 
 1. Extract the image data and turn it into a Numpy array.
 1. Ensure the image is square by padding it appropriately with black pixels.
@@ -45,7 +44,7 @@ The provided notebook has code that performs all of these steps, you may wish to
 
 ### Part 3: Import and prepare a CNN
 
-Like in previous labs and exercises, we're applying transfer learning. Import a pre-trained network from Keras with `include_top=False`. Then, using the Keras functional API, give that network two prediction heads: one for classification and one for object localization.
+Like in previous labs and exercises, we're applying transfer learning. Import a pre-trained network from Tensorflow with `include_top=False`. Then, using the Tensorflow functional API, give that network two prediction heads: one for classification and one for object localization.
 
 You'll have to decide which loss functions to use, and how to weight the predictions from each head during training at this point as well. In the notebook we used `binary_crossentropy` for the classifier, and `mse` for the localizer with weights of `1` and `800` respectively (those weights were chosen arbitrarily, but worked decently). You may wish to experiment with other options.
 

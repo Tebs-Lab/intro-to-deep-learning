@@ -7,7 +7,7 @@ Deep learning is a subset of machine learning which is itself a subset of AI. Sp
 * Define key machine learning and deep learning terminology.
 * Describe neural networks as computational graphs and as complex mathematical formulas.
 * Describe how neural networks are trained at a high level.
-* Use Keras to build, train, and evaluate simple neural networks.
+* Use Tensorflow to build, train, and evaluate simple neural networks.
 
 ## Part 1: What Are Neural Networks, and Why Now?
 
@@ -40,7 +40,8 @@ Theory is great, but putting the theory into practice is more practical. In this
 
 ### Helpful Documentation
 
-* [Keras Docs](https://keras.io/)
+* [Tensorflow Main Python Docs](https://www.tensorflow.org/api_docs/python/tf/)
+* [TF Keras Frontend Docs](https://www.tensorflow.org/api_docs/python/tf/keras)
 * [Matplotlib docs](https://matplotlib.org/)
 
 ## Part 3: Exploring Neural Network Architectures
