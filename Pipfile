@@ -25,6 +25,7 @@ pillow = "*"
 opencv-python = "*"
 bleach = ">=3.1.4"
 scipy = "*"
+tensorflow-datasets = "*"
 
 [requires]
 python_version = "3.8"
