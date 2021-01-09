@@ -1,4 +1,4 @@
-# Deep Learning in Production
+# Section 9: Deep Learning in Production
 
 There is a significant difference between solving simple problems with deep learning in a Jupyter notebook and deploying a highly available server that provides access to a trained model. Similarly, there is another chasm between learning from carefully curated datasets like those built into the Keras framework and creating a data pipeline to power your own models. Whether you want to integrating a fraud detection model into your payment infrastructure or use a GAN to generate deepfake cat videos, moving deep learning from an academic exercise to a production system presents unique challenges that go beyond applied mathematics.
 
