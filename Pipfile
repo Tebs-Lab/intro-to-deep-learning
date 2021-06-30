@@ -15,7 +15,7 @@ keras-rl = "*"
 [packages]
 jupyter = "*"
 numpy = "*"
-tensorflow = ">=2"
+tensorflow = "*"
 matplotlib = "*"
 pydot = "*"
 pandas = ">=0.24"
